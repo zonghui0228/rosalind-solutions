@@ -1,1 +1,0 @@
-http://rosalind.info/problems/locations/
