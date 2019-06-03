@@ -1,2 +1,5 @@
 # Rosalind
-website: http://rosalind.info/problems/locations/
+#### Rosalind is a platform for learning bioinformatics and programming through problem solving. 
+
+## website
+http://rosalind.info/problems/locations/
