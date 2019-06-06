@@ -1,19 +1,29 @@
-Python 2.7.8 (default, Jun 30 2014, 16:03:49) [MSC v.1500 32 bit (Intel)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> #该题目为In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' and 'G'.
+# !python3
+
+
+# Problem
+# In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' and 'G'.
 # The reverse complement of a DNA string  is the string  formed by reversing the symbols of , then taking the complement of each symbol (e.g., the reverse complement of "GTCA" is "TGAC").
 
-#Given: A DNA string  of length at most 1000 bp.
->>> #Return: The reverse complement  of
->>> #example:dataset:AAAACCCGGT     output:ACCGGGTTTT
->>> fp=open('C:\\Users\\sony\\Desktop\\rosalind_revc.txt','r+')
->>> string=fp.read()
->>> string=string.replace('A','N')
->>> string=string.replace('T','A')
->>> string=string.replace('N','T')
->>> string=string.replace('C','M')
->>> string=string.replace('G','C')
->>> string=string.replace('M','G')
->>> string[::-1]
-'\nAGACTTCGCTCCCTAGAACATACAGCCCAGTATAGGGTTTAGGCTGCTACTTATCAAGACCACCCTCCGGCCAATTCACCCTCTTGGTAGGAGTCCCCTTTTTCGAACTCCTCGTTAGCCTGTAGTCTAGGTACATGAACATTCGCTTAGTCGGGGCTATGTTTGCGTGTTGGTAGTTAGCGAGCTTCGGTAGGTTTTCCGATTAAGAGACGAAGAATGGGCCAGTTCAGAAGACGCCATCTGAGAAAGCCGTGTGTCCTATTTTGTCACCCGAGAGAACGTGGCCTCGATCCACAATGGGCACTGGTCACTCTCGCTGGTCTCATTCTCCCATCGATTTTGGCTGTTTCAGCGTAGCGAAGACTGACTCCGCTTGGCCAGGGTCTCGTTAGATATGATAATGATAGGGGAGTCACACTTGTCTGGGTGTTGGCCGACGACCATTTGCGGATCGCTACGACTCCTCATAATTCATGTAGTTTGTATGGCGGGACTCCATACGAATCCAACAGCGTGTTCATTCATGCCTGGGTTGGCTGCAATCTGGACCTGAACGCTTGCGCCTGTGTCTGCCAGCTGTTACGGGGCCATTGCACTCCTCTGAACACCGAGTAAAGATGATCCCCTTTAGCCTTCAGTAAACCGGAGGTCGCGAAAAAAAGAACACGAGTCCACATCGGAATTTGTACCTTGACTTATCAGCTTTGATAAACCGGCATTTATCATAGCTCCCACTACGAAGTCTATGATGCCACTTACTAATGTCGTTGTGACGTATACGGGCGTCCTGGGAAGAGTACGAGATTACAGTTAAGACACCGGCCAGTGCCGACAATAGAGGCGTGACACCAC'
->>> 
+# Given: A DNA string  of length at most 1000 bp.
+# Return: The reverse complement  of .
+
+def DNAstrand(string):
+    strand = ""
+    for i in string[::-1]:
+        if i == "A":
+            strand += "T"
+        if i == "T":
+            strand += "A"
+        if i == "C":
+            strand += "G"
+        if i == "G":
+            strand += "C"
+    return strand
+
+
+if __name__ == "__main__":
+    with open("../data/rosalind_revc.txt", "r") as f:
+        string = f.readline().strip()
+        strand = DNAstrand(string)
+        print(strand)
