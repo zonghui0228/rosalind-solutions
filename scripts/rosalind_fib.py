@@ -1,17 +1,18 @@
-Python 2.7.8 (default, Jun 30 2014, 16:03:49) [MSC v.1500 32 bit (Intel)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> #斐波那契函数，初始数目为n，增长率为k,
->>> def fib(n,k):
-	if n<=2:
-		return 1;
-	else:
-		return fib(n-1,k)+k*fib(n-2,k);
+# python3
 
-	
->>> fib(5,3)
-19
->>> fib(32,3)
-108412748857L
->>> fib(34,4)
-18788331166609L
->>> 
+# Given: Positive integers  and .
+# Return: The total number of rabbit pairs that will be present after  months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of  rabbit pairs (instead of only 1 pair).
+
+def fib(n, k):
+	if n <= 2:
+		return 1
+	else:
+		return fib(n-1,k) + k * fib(n-2,k)
+
+
+if __name__ == "__main__":
+	with open("../data/rosalind_fib.txt", 'r') as f:
+		n, k = f.readline().strip().split(" ")
+		print(fib(int(n), int(k)))
+
+
