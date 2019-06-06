@@ -1,9 +1,40 @@
-Python 2.7.8 (default, Jun 30 2014, 16:03:49) [MSC v.1500 32 bit (Intel)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> fp=open('C:\\Users\\sony\\Desktop\\rosalind_mrna.txt','r')
->>> str=fp.read()
->>> str
-'MSDEHVAPCSKKSSSWPWWMPLPWWPRYRTIMFSMDCTQFCMMMFASAAIEPNWARVCQNGCFWRQPFHLPNLNGTRCCCPTNAWPPFEMDGQTYSIYHKTQYPVFYFMQWWSYPDSANGMVYHVSDDRTMTVMLQVGVTHFGPLQTMGTLNCELKLTYNRMKSWHCWKCHRNVDNMYVCFDSDARYHGHMMYSIDKHMIRADFFFMQVYNDTSAMKHKYCSMSEFTITTVRFNEHGTLKYWSPEHTAKYQFKEQHRFNPLPTQICYQWVVETKRASPFFPPNLTTFEMVWNGVTPQQKCWHPQMMDPEYSEVFTFEMKQWYTLMRVTFWIFLHPIKGKDTDVYEWACHCQHTEKDNETYDWVFHCYWKDPCPSLIPDLTTYFLQFTRWGSVMYDPDSPKHFMFSDMTIPPPCRVPKYLWMKEATCEKTMMWNRSSLSYKYWCCYHYKREWLIYGKWLECAWVPQGHRRSWWFKKAQQYVTLTYDISDNYRIYVGDIHYGFTHNQVAPWDEGMDTPHAMYRHSDGKSDSSQFLTGSMPSWHYQPFIIYTVCQPSQYWPWVNPHGEAGAEKLNTTFYEGPCSLLEQNHEYKETPSIFAVEDFTAETKAGFDRILTHNDFWEGRIQDLPGYKQSFLMWSPQNDQHCHYGMGADTIYWVKCCEQVNNALKPLKEIAAANCSNATNHNNDWNKPCVSKMMQFLYAQDPGWKCRGSKVVGPSLKTHTCSPGQDREHCLIPHYLDRISNFPQRHTCESVRKKSGLEILNLRPCPCYKQLSMRDVKLCCRDTDWFQLDEDIAFWYHNYFIGGNSNRNGSRNTILCYMMDPFHPPHQVIALRPVKVFEVSDKKTQDHSELMRCKGNPRHMRCGLISRTVPRELIEELQMDRMGRALHNRDPGHGRVPSSDKDMATKNYWECEGRLCLIFFMVQFQSMNPLFRPKWDVRIKRLHQHFTTCHPPPTEQVPDIAPHFFKMKTFYNCFNVSREWTQVNKRFMGETCQNK\n'
->>> 2**str.count('F')*6**str.count('L')*6**str.count('S')*2**str.count('Y')*2**str.count('C')*4**str.count('P')*2**str.count('H')*2**str.count('Q')*6**str.count('R')*3**str.count('I')*4**str.count('T')*2**str.count('N')*2**str.count('k')*4**str.count('V')*4**str.count('A')*2**str.count('D')*2**str.count('E')*4**str.count('G')*3
-576141009285193649525704685492378300663229289946822018174951858845164947630819561037263729206774567860980247994445231603472899973774990918772430842191633908257785477957967097167415564949074866769314578287318641171898864927389640217943951210928793297838740787681519391929627261566225897901606706892585253975198303799111066599124158214894849667556205911370487513564132237407406884983525844197023993954109631791890432L
->>> 
+# python3
+
+
+# Given: A protein string of length at most 1000 aa.
+# Return: The total number of different RNA strings from which the protein could have been translated, modulo 1,000,000. (Don't neglect the importance of the stop codon in protein translation.)
+
+def mrna(protein):
+    codons = {'F': ['UUU', 'UUC'],
+              'L': ['UUA', 'UUG', 'CUU', 'CUC', 'CUA', 'CUG'],
+              'S': ['UCU', 'UCC', 'UCA', 'UCG', 'AGU', 'AGC'],
+              'Y': ['UAU', 'UAC'],
+              '*': ['UAA', 'UAG', 'UGA'],
+              'C': ['UGU', 'UGC'],
+              'W': ['UGG'],
+              'P': ['CCU', 'CCC', 'CCA', 'CCG'],
+              'H': ['CAU', 'CAC'],
+              'Q': ['CAA', 'CAG'],
+              'R': ['CGU', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG'],
+              'V': ['GUU', 'GUC', 'GUA', 'GUG'],
+              'A': ['GCU', 'GCC', 'GCA', 'GCG'],
+              'D': ['GAU', 'GAC'],
+              'E': ['GAA', 'GAG'],
+              'G': ['GGU', 'GGC', 'GGA', 'GGG'],
+              'I': ['AUU', 'AUC', 'AUA'],
+              'M': ['AUG'],
+              'T': ['ACU', 'ACC', 'ACA', 'ACG'],
+              'N': ['AAU', 'AAC'],
+              'K': ['AAA', 'AAG']}
+    number = 1
+    for aa in protein:
+        number = number * len(codons[aa])
+    number = number*len(codons["*"])
+    return number % 1000000
+
+
+if __name__ == "__main__":
+    with open("../data/rosalind_mrna.txt", 'r') as f:
+        protein = f.readline().strip()
+        number = mrna(protein)
+        print(number)
