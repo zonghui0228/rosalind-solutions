@@ -1,51 +1,27 @@
-# coding:utf-8
-# Overlap Graphs
+# ^_^ coding:utf-8 ^_^
 
-# Sample Dataset
-# >Rosalind_0498
-# AAATAAA
-# >Rosalind_2391
-# AAATTTT
-# >Rosalind_2323
-# TTTTCCC
-# >Rosalind_0442
-# AAATCCC
-# >Rosalind_5013
-# GGGTGGG
+from Bio import SeqIO
 
-# Sample Output
-# Rosalind_0498 Rosalind_2391
-# Rosalind_0498 Rosalind_0442
-# Rosalind_2391 Rosalind_2323
+# ==============================
+# config the input
+data = "../data/rosalind_grph.txt"
+n = 3
 
-def read_fasta(file):                                #把fasta文件读入seq
-	fp = open(file, 'r')
-	seq = {}
-	for line in fp:
-		if line.startswith('>'):
-			name = line.replace('>', '')
-			name = name.replace('\n', '')
-			seq[name] = ''
-		else:
-			seq[name] += line.replace('\n', '')
-	fp.close()
-	return seq
+# ==============================
+# 1. read fastq file
+seq_name, seq_string = [], []
+with open (data,'r') as fa:
+    for seq_record  in SeqIO.parse(fa,'fasta'):
+        seq_name.append(str(seq_record.name))
+        seq_string.append(str(seq_record.seq))
+# print(seq_name)
+# print(seq_string)
 
-def graph(list_name, list_string):                                   #循环比较，窗口为1
-	for i in range(len(list_name)): 
-		for j in range(len(list_string)):
-			if(i != j):
-				if list_string[i][-3:] == list_string[j][:3]:        #窗口设置为n,则分别为[-n:],[:n], there n=3
-					print list_name[i], list_name[j]
+# 2. get adjacency list
+for i in range(len(seq_string)):
+    for j in range(len(seq_string)):
+        if i != j:
+            if seq_string[i][-n:] == seq_string[j][:n]:
+                print(seq_name[i], seq_name[j])
 
-def main():                                                 
-	seq = read_fasta("rosalind_grph.txt")
-	list_name = []
-	list_string = []
-	for i in seq.keys():                 # 把seq中的序列读入两个list
-		list_name.append(i)              # list_name里面包含序列名字
-		list_string.append(seq[i])       # list_string里面包含对应字符串序列
-	# print list_name
-	# print list_string
-	graph(list_name, list_string)
-# main()
+
