@@ -3,11 +3,12 @@
 from Bio import SeqIO
 
 # ==============================
-# config the input
+# the input
 data = "../data/rosalind_grph.txt"
 n = 3
 
 # ==============================
+# the solution
 # 1. read fastq file
 seq_name, seq_string = [], []
 with open (data,'r') as fa:

@@ -4,12 +4,13 @@
 
 
 # ==============================
-# config the input
+# the input:
 data = "../data/rosalind_tree.txt"
 
 
 
 # ==============================
+# the solution:
 # 1. read data
 with open(data, "r") as f:
     n = int(f.readline())
