@@ -8,25 +8,25 @@
 # ==============================
 data = "../data/rosalind_bfs.txt"
 f = open(data, "r")
-nodes, edges = f.readline().strip().split(" ")
-directed_neighbor_nodes = {str(i+1):[] for i in range(int(nodes))}
+vertices, edges = f.readline().strip().split(" ")
+directed_vertice_neighbors = {i+1:[] for i in range(int(vertices))}
 for line in f:
 	l = line.strip().split(" ")
-	directed_neighbor_nodes[l[0]].append(l[1])
+	directed_vertice_neighbors[int(l[0])].append(int(l[1]))
 f.close()
 
 
 # the solution:
 # ==============================
-def BFS(start_node, nodes, directed_neighbor_nodes):
+def BFS(start_vertice, vertices, directed_vertice_neighbors):
 	quene, order = [], [] # quene存储需要进行遍历的数据， order存储遍历的路径
-	distance = {str(i+1):0 for i in range(int(nodes))} # 初始化shortest path
-	quene.append(start_node)
-	order.append(start_node)
+	distance = {i+1:0 for i in range(int(vertices))} # 初始化shortest path
+	quene.append(start_vertice)
+	order.append(start_vertice)
 	# 进行广度优先遍历
 	while quene:
 		v = quene.pop(0)
-		for n in directed_neighbor_nodes[v]:
+		for n in directed_vertice_neighbors[v]:
 			if n not in order:
 				distance[n] = distance[v] + 1
 				order.append(n)
@@ -38,7 +38,7 @@ def BFS(start_node, nodes, directed_neighbor_nodes):
 	# 返回顺序，和距离
 	return order, distance
 
-start_node = "1"
-order, distance = BFS(start_node, nodes, directed_neighbor_nodes)
-for i in range(int(nodes)):
-	print(distance[str(i+1)], end = " ")
+start_vertice = 1
+order, distance = BFS(start_vertice, vertices, directed_vertice_neighbors)
+for i in range(int(vertices)):
+	print(distance[i+1], end = " ")
