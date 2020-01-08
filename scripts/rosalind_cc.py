@@ -8,13 +8,13 @@
 data = "../data/rosalind_cc.txt"
 f = open(data, "r")
 # 获得顶点和边
-vertices, edges = f.readline().strip().split(" ")
+vertice, edge = map(int, f.readline().strip().split(" "))
 # 获得每个顶点的邻居点
-vertice_neighbors = {i+1:[] for i in range(int(vertices))}
+graph = {i+1:[] for i in range(vertice)}
 for line in f:
-	l = line.strip().split(" ")
-	vertice_neighbors[int(l[0])].append(int(l[1]))
-	vertice_neighbors[int(l[1])].append(int(l[0]))
+	l = list(map(int, line.strip().split(" ")))
+	graph[l[0]].append(l[1])
+	graph[l[1]].append(l[0])
 f.close()
 
 
@@ -24,14 +24,14 @@ f.close()
 def dfs(cc, v, visited):
 	visited[v] = True
 	cc.append(v)
-	for i in vertice_neighbors[v]:
+	for i in graph[v]:
 		if visited[i] == False:
 			cc = dfs(cc, i, visited)
 	return cc
 
-visited = [False for i in range(int(vertices)+1)] # 记录该点是否被遍历过
+visited = [False for i in range(vertice+1)] # 记录该点是否被遍历过
 connected_components = [] # 记录联通分支，connected component
-for v in range(1, int(vertices)+1):
+for v in range(1, int(vertice)+1):
 	if visited[v] == False:
 		cc = []
 		connected_components.append(dfs(cc, v, visited))
