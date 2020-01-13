@@ -8,7 +8,6 @@ import sys
 # the input
 # ==============================
 data = "../data/rosalind_dij.txt"
-graph = np.zeros((2,2))
 
 with open(data, "r") as f:
 	vertice, edge = map(int, f.readline().strip().split(" "))
