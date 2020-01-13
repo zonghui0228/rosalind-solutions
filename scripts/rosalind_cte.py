@@ -63,7 +63,7 @@ def BellmanFord(graph, vertice, source):
 		if distance[u] != sys.maxsize:
 			for v in graph[u]:
 				if distance[v] > distance[u] + graph[u][v]:
-					print("without negative cycles")
+					print("with negative cycles")
 
 	return distance, predecessor
 
