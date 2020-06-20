@@ -60,4 +60,4 @@ def printSCCs(graph, vertice):
 SCCs = []
 printSCCs(graph, vertice)
 print(SCCs)
-print(SCCs.count(""))
+# print(SCCs.count(""))
