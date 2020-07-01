@@ -1,16 +1,44 @@
+# coding:utf-8
+
 # Longest Increasing Subsequence
-def read_file(file):
-	f = open(file, 'r')
-	n = int(f.readline().strip('\n'))
-	p = f.readline().strip('\n').split(' ')
-	return n, p
-	f.close()
-	# n: a positive integer ,< 10000
-	# p: a permutation of length n
+def LIS(nums, n):
+    dp = [] # 记录到每个节点时LIS的长度，int
+    dp_list = [] # 记录到每个节点时LIS的内容, list
 
-def (n, p):
-	
+    for i in range(n):
+        dp.append(1)
+        dp_list.append([nums[i]])
+        for j in range(i):
+            if nums[j] < nums[i]:
+                dp[i] = max(dp[i], dp[j] + 1)
+                if len(dp_list[i]) <= len(dp_list[j]):
+                    dp_list[i] = dp_list[j] + [nums[i]]
+    # print(dp, dp_list)
+    print(max(dp), dp_list[dp.index(max(dp))])
+    return dp, dp_list
 
+# Longest Decreasing Subsequence
+def LDS(nums, n):
+    dp = [] # 记录到每个节点时LIS的长度，int
+    dp_list = [] # 记录到每个节点时LIS的内容, list
+
+    for i in range(n):
+        dp.append(1)
+        dp_list.append([nums[i]])
+        for j in range(i):
+            if nums[j] > nums[i]:
+                dp[i] = max(dp[i], dp[j] + 1)
+                if len(dp_list[i]) <= len(dp_list[j]):
+                    dp_list[i] = dp_list[j] + [nums[i]]
+    # print(dp, dp_list)
+    print(max(dp), dp_list[dp.index(max(dp))])
+    return dp, dp_list
 
 if __name__ == "__main__":
-	n, p = read_file("test.txt")
+    with open("../data/rosalind_lgis.txt", "r") as f:
+        n = int(f.readline().strip())
+        nums = [int(i) for i in f.readline().strip().split(" ")]
+
+    LIS(nums, n)
+    LDS(nums, n)
+    
