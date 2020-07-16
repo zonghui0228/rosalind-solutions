@@ -53,7 +53,6 @@
 * Distances in Trees [[info](http://rosalind.info/problems/nwck/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/scripts/rosalind_nwck.py)]
 * Introduction to Set Operations [[info](http://rosalind.info/problems/seto/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/scripts/rosalind_seto.py)]
 * Constructing a De Bruijn Graphs [[info](http://rosalind.info/problems/dbru/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/scripts/rosalind_dbru.py)]
-[Finished in 0.3s]
 
 
 
