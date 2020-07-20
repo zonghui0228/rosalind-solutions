@@ -55,3 +55,4 @@
 * Constructing a De Bruijn Graphs [[info](http://rosalind.info/problems/dbru/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_dbru.py)]
 * Catalan Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/cat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cat.py)]
 * Introduction to Alternative Splicing [[info](http://rosalind.info/problems/aspc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_aspc.py)]
+* Motzkin Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/motz/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_motz.py)]
