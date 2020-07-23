@@ -57,3 +57,4 @@
 * Catalan Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/cat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cat.py)]
 * Motzkin Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/motz/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_motz.py)]
 * Wobble Bonding and RNA Secondary Structures [[info](http://rosalind.info/problems/rnas/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rnas.py)]
+* Reversal Distance [[info](http://rosalind.info/problems/rear/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rear.py)]
