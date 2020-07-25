@@ -58,3 +58,4 @@
 * Motzkin Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/motz/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_motz.py)]
 * Wobble Bonding and RNA Secondary Structures [[info](http://rosalind.info/problems/rnas/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rnas.py)]
 * Reversal Distance [[info](http://rosalind.info/problems/rear/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rear.py)]
+* Sorting by Reversals [[info](http://rosalind.info/problems/sort/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sort.py)]

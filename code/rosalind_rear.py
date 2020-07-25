@@ -1,5 +1,6 @@
 # ^_^ coding:utf-8 ^_^
 
+
 """
 Reversal Distance
 http://rosalind.info/problems/rear/
@@ -16,7 +17,6 @@ def _get_reverse_array(s):
             r_list.reverse()
             reverse_arrays.append(s[:i] + r_list + s[j+1:])
     return reverse_arrays
-
 
 def _get_reversal_distance(s1, s2, distance):
     # reverse s1 to s2, and reverse s2 to s1 at same time.
