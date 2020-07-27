@@ -1,6 +1,5 @@
 # ^_^ coding:utf-8 ^_^
 
-
 """
 Sorting by Reversals
 url: http://rosalind.info/problems/sort/

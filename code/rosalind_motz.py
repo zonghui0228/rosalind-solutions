@@ -1,9 +1,14 @@
 # ^_^ coding:utf-8 ^_^
 
-# Motzkin Numbers and RNA Secondary Structures
+"""
+Motzkin Numbers and RNA Secondary Structures
+url: http://rosalind.info/problems/motz/
+
+Given: An RNA string s of length at most 300 bp.
+Return: The total number of noncrossing matchings of basepair edges in the bonding graph of s, modulo 1,000,000.
+"""
 
 from Bio import SeqIO
-
 
 def _get_motzkin_numbers(s, n, motzkin_memo):
     if n <= 1:

@@ -1,6 +1,12 @@
 # ^_^ coding:utf-8 ^_^
 
-# Introduction to Alternative Splicing
+"""
+Introduction to Alternative Splicing
+url: http://rosalind.info/problems/aspc/
+
+Given: Positive integers n and m with 0≤m≤n≤2000.
+Return: The sum of combinations C(n,k) for all k satisfying m≤k≤n, modulo 1,000,000. In shorthand, ∑nk=m(nk).
+"""
 
 import math
 

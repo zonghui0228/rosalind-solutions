@@ -1,6 +1,13 @@
 # coding:utf-8
 
-# Longest Increasing Subsequence
+"""
+Longest Increasing Subsequence
+url: http://rosalind.info/problems/lgis/
+
+Given: A positive integer n≤10000 followed by a permutation π of length n.
+Return: A longest increasing subsequence of π, followed by a longest decreasing subsequence of π.
+"""
+
 def LIS(nums, n):
     dp = [] # 记录到每个节点时LIS的长度，int
     dp_list = [] # 记录到每个节点时LIS的内容, list

@@ -1,6 +1,12 @@
 # ^_^ coding:utf-8 ^_^
 
-# Finding a Spliced Motif
+"""
+Finding a Spliced Motif
+url: http://rosalind.info/problems/sseq/
+
+Given: Two DNA strings s and t (each of length at most 1 kbp) in FASTA format.
+Return: One collection of indices of s in which the symbols of t appear as a subsequence of s. If multiple solutions exist, you may return any one.
+"""
 
 from Bio import SeqIO
 
@@ -11,9 +17,6 @@ def find_spliced_motif(s, t):
         # print(s.index(i))
     for p in position[1:]:
         print(p, end=" ")
-
-
-
 
 if __name__ == "__main__":
     seq_name, seq_string = [], []

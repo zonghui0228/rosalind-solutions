@@ -1,7 +1,12 @@
 # ^_^ coding:utf-8 ^_^
 
+"""
+Speeding Up Motif Finding
+url: http://rosalind.info/problems/kmp/
 
-# Speeding Up Motif Finding
+Given: A DNA string s (of length at most 100 kbp) in FASTA format.
+Return: The failure array of s.
+"""
 
 from Bio import SeqIO
 
@@ -18,9 +23,8 @@ def _get_failure_array(s):
 
         # 当前循环结束后，longest_motif_length，没有增加，则停止循环。
         if longest_motif_length < len(s[:i]):
-        	break
+            break
     print(failure_array)
-
 
 if __name__ == "__main__":
 #     # test

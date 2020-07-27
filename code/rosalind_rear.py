@@ -1,9 +1,8 @@
 # ^_^ coding:utf-8 ^_^
 
-
 """
 Reversal Distance
-http://rosalind.info/problems/rear/
+rul: http://rosalind.info/problems/rear/
 
 Given: A collection of at most 5 pairs of permutations, all of which have length 10.
 Return: The reversal distance between each permutation pair.

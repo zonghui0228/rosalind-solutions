@@ -1,8 +1,14 @@
 # ^_^ coding:utf-8 ^_^
 
-# Bellman-Ford Algorithm
-import sys
+"""
+Bellman-Ford Algorithm
+url: http://rosalind.info/problems/bf
 
+Given: A simple directed graph with integer edge weights from −103 to 103 and n≤103 vertices in the edge list format.
+Return: An array D[1..n] where D[i] is the length of a shortest path from the vertex 1 to the vertex i (D[1]=0). If i is not reachable from 1 set D[i] to x.
+"""
+
+import sys
 
 # the input:
 # A simple directed graph with integer edge weights from −10**3 to 10**3 and n≤10**3 vertices in the edge list format.
@@ -44,9 +50,7 @@ def BellmanFord(graph, vertice, source):
 					print("with negative cycles")
 
 	return distance, predecessor
-
 distance, predecessor = BellmanFord(graph, vertice, 1)
-
 
 # results:
 for i in graph:
