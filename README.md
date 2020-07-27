@@ -61,3 +61,4 @@
 * Sorting by Reversals [[info](http://rosalind.info/problems/sort/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sort.py)]
 * Inferring Protein from Spectrum [[info](http://rosalind.info/problems/spec/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_spec.py)]
 * Comparing Spectra with the Spectral Convolution [[info](http://rosalind.info/problems/conv/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_conv.py)]
+* Matching a Spectrum to a Protein [[info](http://rosalind.info/problems/prsm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prsm.py)]

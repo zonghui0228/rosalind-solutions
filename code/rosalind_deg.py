@@ -1,12 +1,16 @@
 # ^_^ coding:utf-8 ^_^
 
-# Degree Array
+"""
+Degree Array
+url: http://rosalind.info/problems/deg/
 
+Given: A simple graph with n≤103 vertices in the edge list format.
+Return: An array D[1..n] where D[i] is the degree of vertex i.
+"""
 
 # the input:
 # ==============================
 data = "../data/rosalind_deg.txt"
-
 
 # the solution:
 # ==============================

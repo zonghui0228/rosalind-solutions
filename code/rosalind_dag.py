@@ -1,6 +1,12 @@
 # ^_^ coding:utf-8 ^_^
 
-# Testing Acyclicity
+"""
+Testing Acyclicity
+url: http://rosalind.info/problems/dag/
+
+Given: A positive integer k≤20 and k simple directed graphs in the edge list format with at most 103 vertices and 3⋅103 edges each.
+Return: For each graph, output "1" if the graph is acyclic and "-1" otherwise.
+"""
 
 
 # the input

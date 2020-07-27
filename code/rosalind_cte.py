@@ -1,6 +1,15 @@
 # ^_^ coding:utf-8 ^_^
 
-# Shortest Cycle Through a Given Edge
+"""
+Shortest Cycle Through a Given Edge
+url: http://rosalind.info/problems/cte/
+
+Given: A positive integer k≤20 and k simple directed graphs with positive integer edge weights and at most 103 vertices in the edge list format.
+Return: For each graph, output the length of a shortest cycle going through the first specified edge if there is a cycle and "-1" otherwise.
+"""
+
+
+
 import numpy as np
 import sys
 
