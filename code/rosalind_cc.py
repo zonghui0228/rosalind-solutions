@@ -1,8 +1,9 @@
 # ^_^ coding ^_^
 
 """
-# Connected Components
+Connected Components
 url: http://rosalind.info/problems/cc/
+
 Given: A simple graph with n≤10**3 vertices in the edge list format.
 Return: The number of connected components in the graph.
 """
