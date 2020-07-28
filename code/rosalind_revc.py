@@ -1,12 +1,12 @@
-# !python3
+# ^_^ coding:utf-8 ^_^
 
-
-# Problem
-# In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' and 'G'.
-# The reverse complement of a DNA string  is the string  formed by reversing the symbols of , then taking the complement of each symbol (e.g., the reverse complement of "GTCA" is "TGAC").
+""""
+Complementing a Strand of DNA
+url: http://rosalind.info/problems/revc/
 
 # Given: A DNA string  of length at most 1000 bp.
-# Return: The reverse complement  of .
+# Return: The reverse complement sc of s. .
+"""
 
 def DNAstrand(string):
     strand = ""

@@ -9,20 +9,11 @@ Return: Four integers (separated by spaces) counting the respective number of ti
 """
 
 def count_DNA(string):
-    countA, countC, countG, countT=0, 0, 0, 0
-    i=0
-    while i < len(string):
-        if string[i] == 'A':
-            countA = countA + 1
-        elif string[i] == 'C':
-            countC = countC + 1
-        elif string[i] == 'G':
-            countG = countG + 1
-        elif string[i] == 'T':
-            countT = countT+1
-        i = i+1
+    countA = string.count("A")
+    countC = string.count("C")
+    countG = string.count("G")
+    countT = string.count("T")
     return countA, countC, countG, countT
-
 
 if __name__ == "__main__":
     with open("../data/rosalind_dna.txt", 'r') as f:

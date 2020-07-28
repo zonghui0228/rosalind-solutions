@@ -1,16 +1,19 @@
 # ^_^ coding:utf-8 ^_^
 
-# Overlap Graphs
+"""
+Overlap Graphs
+url: http://rosalind.info/problems/grph/
 
+Given: A collection of DNA strings in FASTA format having total length at most 10 kbp.
+Return: The adjacency list corresponding to O3. You may return edges in any order.
+"""
 
 from Bio import SeqIO
-
 
 # the input
 # ==============================
 data = "../data/rosalind_grph.txt"
 n = 3
-
 
 # the solution
 # ==============================
@@ -27,5 +30,3 @@ for i in range(len(seq_string)):
         if i != j:
             if seq_string[i][-n:] == seq_string[j][:n]:
                 print(seq_name[i], seq_name[j])
-
-

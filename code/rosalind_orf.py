@@ -1,14 +1,13 @@
-# Open Reading Frames
+# ^_^ coding:utf-8 ^_^
 
-# Sample Dataset
-# >Rosalind_99
-# AGCCATGTAGCTAACTCAGGTTACATGGGGATGACCCCGCGACTTGGATTAGAGTCTCTTTTGGAATAAGCCTGAATGATCCGAGTAGCATCTCAG
+"""
+Open Reading Frames
+url:http://rosalind.info/problems/orf/
 
-# Sample Output
-# MLLGSFRLIPKETLIQVAGSSPCNLS
-# M
-# MGMTPRLGLESLLE
-# MTPRLGLESLLE
+Given: A DNA string s of length at most 1 kbp in FASTA format.
+Return: Every distinct candidate protein string that can be translated from ORFs of s. Strings can be returned in any order.
+"""
+
 def read_fasta(file):
 	seq = {}
 	fp = open(file, 'r')
@@ -129,5 +128,5 @@ def main(file):
 	listall = list(set(listall))
 	# print listall
 	for i in listall:
-		print i
-# main("rosalind_orf.txt")
+		print(i)
+main("../data/rosalind_orf.txt")
