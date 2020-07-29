@@ -19,7 +19,7 @@ with open ("../data/rosalind_cons.txt",'r') as fa:
         seq_name.append(str(seq_record.name))
         seq_string.append(str(seq_record.seq))
 
-seq_len = len(seq_string)
+seq_len = len(seq_string) + 1
 str_len = len(seq_string[0])
 
 symbol = ["A", "C", "G", "T"]
