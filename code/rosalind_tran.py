@@ -1,51 +1,30 @@
-# the transition / transversions ratio
-# give two dna string of the same length
-def read_fasta(file):
-	fp = open(file, 'r')
-	seq = {}
-	for line in fp:
-		if line.startswith('>'):
-			name = line.strip('>')
-			name = name.strip('\n')
-			seq[name] = ''
-		else:
-			seq[name] += line.strip('\n')
-	return seq
-	fp.close()
+# ^_^ coding:utf-8 ^_^
 
+"""
+Transitions and Transversions
+url: http://rosalind.info/problems/tran/
 
-def ratio(file):
-	seq = read_fasta(file)
-	list1 = []
-	for i in seq.keys():
-		list1.append(seq[i])
-	# print list1
-	transition = 0.0
-	transversions = 0.0
-	for i in range(len(list1[0])):
-		if list1[0][i] == 'A' and list1[1][i] == 'T':
-			transversions += 1
-		if list1[0][i] == 'A' and list1[1][i] == 'G':
-			transition += 1
-		if list1[0][i] == 'A' and list1[1][i] == 'C':
-			transversions += 1
-		if list1[0][i] == 'T' and list1[1][i] == 'A':
-			transversions += 1
-		if list1[0][i] == 'T' and list1[1][i] == 'C':
-			transition += 1
-		if list1[0][i] == 'T' and list1[1][i] == 'G':
-			transversions += 1
-		if list1[0][i] == 'C' and list1[1][i] == 'A':
-			transversions += 1
-		if list1[0][i] == 'C' and list1[1][i] == 'T':
-			transition += 1
-		if list1[0][i] == 'C' and list1[1][i] == 'G':
-			transversions += 1
-		if list1[0][i] == 'G' and list1[1][i] == 'T':
-			transversions += 1
-		if list1[0][i] == 'G' and list1[1][i] == 'A':
-			transition += 1
-		if list1[0][i] == 'G' and list1[1][i] == 'C':
-			transversions += 1
-	return float(transition/transversions)
-# print ratio("rosalind_tran.txt")
+Given: Two DNA strings s1 and s2 of equal length (at most 1 kbp).
+Return: The transition/transversion ratio R(s1,s2).
+"""
+
+from Bio import SeqIO
+
+transition = [('A', 'G'), ('T', 'C'), ('C', 'T'), ('G', 'A')]
+transversions = [('A', 'T'), ('A', 'C'), ('T', 'A'), ('T', 'G'), ('C', 'A'), ('C', 'G'), ('G', 'T'), ('G', 'C')]
+
+seq_name, seq_string = [], []
+with open ("../data/rosalind_tran.txt",'r') as fa:
+    for seq_record  in SeqIO.parse(fa,'fasta'):
+        seq_name.append(str(seq_record.name))
+        seq_string.append(str(seq_record.seq))
+
+transition_c, transversions_c = 0, 0
+s1, s2 = seq_string
+
+for i in range(len(s1)):
+    if (s1[i], s2[i]) in transition:
+        transition_c += 1
+    if (s1[i], s2[i]) in transversions:
+        transversions_c += 1
+print(transition_c/transversions_c)

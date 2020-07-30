@@ -25,12 +25,11 @@ def _get_catalan_numbers(s, nodes, catalan_memo):
     catalan_memo[(s, nodes)] = Cn
     return Cn
 
-
 if __name__ == "__main__":
     # load data
     seq_name, seq_string = [], []
     with open ("../data/rosalind_cat.txt",'r') as fa:
-        for seq_record  in SeqIO.parse(fa,'fasta'):
+        for seq_record in SeqIO.parse(fa,'fasta'):
             seq_name.append(str(seq_record.name))
             seq_string.append(str(seq_record.seq))
 

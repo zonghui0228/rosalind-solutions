@@ -1,12 +1,16 @@
 # ^_^ coding:utf-8 ^_^
 
-# completing a tree
+"""
+Completing a Tree
+url: http://rosalind.info/problems/tree/
 
+Given: A positive integer n (n≤1000) and an adjacency list corresponding to a graph on n nodes that contains no cycles.
+Return: The minimum number of edges that can be added to the graph to produce a tree.
+"""
 
 # the input:
 # ==============================
 data = "../data/rosalind_tree.txt"
-
 
 # the solution:
 # ==============================
@@ -31,16 +35,15 @@ for i, j in adjacency_list:
 
 l = len(subtrees)
 for i in range(l):
-	for j in range(l):
-		if i==j:
-			break
-		if len(set(subtrees[i] + subtrees[j])) < len(subtrees[i]) + len(subtrees[j]):
-			subtrees[i] = list(set(subtrees[i] + subtrees[j]))
-			subtrees[j] = []
+    for j in range(l):
+        if i==j:
+           break
+        if len(set(subtrees[i] + subtrees[j])) < len(subtrees[i]) + len(subtrees[j]):
+            subtrees[i] = list(set(subtrees[i] + subtrees[j]))
+            subtrees[j] = []
 subtrees = [i for i in subtrees if i]
 # print(subtrees)
 # print(nodes)
-
 
 result = (n -len(nodes)) + len(subtrees) - 1
 print(result)

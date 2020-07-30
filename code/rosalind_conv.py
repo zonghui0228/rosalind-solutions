@@ -15,4 +15,3 @@ spectral_convolution = [round(i-j, 5) for i in s1 for j in s2]
 spectral_convolution_count = {s:spectral_convolution.count(s) for s in spectral_convolution}
 spectral_convolution_count_sorted = sorted(spectral_convolution_count.items(), key=lambda item:item[1], reverse=True)
 print(spectral_convolution_count_sorted[0])
-

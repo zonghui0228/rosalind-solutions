@@ -1,35 +1,30 @@
-# coding: utf-8
-# creating a distance matrix
-def read_fasta(file):
-	f = open(file, 'r')
-	seq = {}
-	seqname = []
-	for line in f:
-		if line.startswith('>'):
-			name = line.strip()
-			seqname.append(name)
-			seq[name] = ''
-		else:
-			seq[name] += line.strip('\n')
-	return seq, seqname
+# ^_^ coding: utf-8 ^_^
 
-# print read_fasta('C:/Users/310272293/Desktop/rosalind_pdst.txt')
+"""
+Creating a Distance Matrix
+url: http://rosalind.info/problems/pdst/
+
+Given: A collection of n (n≤10) DNA strings s1,…,sn of equal length (at most 1 kbp). Strings are given in FASTA format.
+Return: The matrix D corresponding to the p-distance dp on the given strings. As always, note that your answer is allowed an absolute error of 0.001.
+"""
+
+from Bio import SeqIO
+
+seq_name, seq_string = [], []
+with open("../data/rosalind_pdst.txt", "r") as fa:
+	for seq_record in SeqIO.parse(fa, "fasta"):
+		seq_name.append(str(seq_record.name))
+		seq_string.append(str(seq_record.seq))
+
 def p_distance(s1, s2):
-	n = len(s1)
-	m = 0
-	for i in range(n):
-		if s1[i] != s2[i]:
-			m += 1
-	return '%.5f'% (float(m)/n)
-# print p_distance('TTTCCATTTA', 'GATTCATTTC')
+    n = len(s1)
+    m = 0
+    for i in range(n):
+        if s1[i] != s2[i]:
+            m += 1
+    return '%.5f'% (float(m)/n)
 
-def dis_matrix(file):
-	s, sn = read_fasta(file)
-	# print sn
-	for i in sn:
-		for j in sn:
-			print p_distance(s[i],s[j]),
-		print '\n'
-
-
-# dis_matrix('C:/Users/310272293/Desktop/rosalind_pdst.txt')
+for i in range(len(seq_name)):
+    for j in range(len(seq_name)):
+        print(p_distance(seq_string[i],seq_string[j]), end=" ")
+    print('')

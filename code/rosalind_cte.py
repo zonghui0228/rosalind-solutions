@@ -8,11 +8,8 @@ Given: A positive integer k≤20 and k simple directed graphs with positive inte
 Return: For each graph, output the length of a shortest cycle going through the first specified edge if there is a cycle and "-1" otherwise.
 """
 
-
-
 import numpy as np
 import sys
-
 
 # the input:
 # A positive integer k≤20 and k simple directed graphs with positive integer edge weights and at most 10**3 vertices in the edge list format
@@ -25,23 +22,23 @@ edges = [] # 存储所有的graphs的边数目
 first_specified_edges = []
 # 读取数据,有向图
 with open(data, "r") as f:
-	k = int(f.readline().strip())
+    k = int(f.readline().strip())
 
-	for line in f:
-		# print(line)
-		if len(line.strip().split(" "))==3:
-			vertice1, vertice2, weight = list(map(int, line.strip().split(" ")))
-			graph[vertice1][vertice2] = weight
+    for line in f:
+        # print(line)
+        if len(line.strip().split(" "))==3:
+            vertice1, vertice2, weight = list(map(int, line.strip().split(" ")))
+            graph[vertice1][vertice2] = weight
 
-		else:
-			# 获得顶点和边
-			vertice, edge = map(int, line.strip().split(" "))
-			# 获得每个顶点的邻居点
-			graph = {v:{} for v in range(1, vertice+1)}
-			graphs.append(graph)
-			vertices.append(vertice)
-			edges.append(edge)
-			first_specified_edges.append(list(map(int, f.readline().strip().split(" "))))
+        else:
+            # 获得顶点和边
+            vertice, edge = map(int, line.strip().split(" "))
+            # 获得每个顶点的邻居点
+            graph = {v:{} for v in range(1, vertice+1)}
+            graphs.append(graph)
+            vertices.append(vertice)
+            edges.append(edge)
+            first_specified_edges.append(list(map(int, f.readline().strip().split(" "))))
 # print(graphs)
 # print(vertices)
 # print(edges)
@@ -53,38 +50,38 @@ with open(data, "r") as f:
 # 其次寻找first_specified_edge的第2个点到第1个点的最短距离，若存在，则加上这两点的权重，就为我们的结果；若不存在，则返回-1
 # ==============================
 def BellmanFord(graph, vertice, source):
-	# 初始化
-	distance = {i:sys.maxsize for i in graph} # 初始设置为代表无穷大
-	predecessor = {i:None for i in graph}
-	distance[source] = 0 # 到原点距离设置为0
+    # 初始化
+    distance = {i:sys.maxsize for i in graph} # 初始设置为代表无穷大
+    predecessor = {i:None for i in graph}
+    distance[source] = 0 # 到原点距离设置为0
 
-	# 对每一条边重复操作
-	for i in range(vertice-1):
-		for u in graph:
-			if distance[u] != sys.maxsize:
-				for v in graph[u]:
-					if distance[v] > distance[u] + graph[u][v]:
-						distance[v] = distance[u] + graph[u][v]
-						predecessor[v] = u
-	
-	# 检查是否有负权重的边
-	for u in graph:
-		if distance[u] != sys.maxsize:
-			for v in graph[u]:
-				if distance[v] > distance[u] + graph[u][v]:
-					print("with negative cycles")
+    # 对每一条边重复操作
+    for i in range(vertice-1):
+        for u in graph:
+            if distance[u] != sys.maxsize:
+                for v in graph[u]:
+                    if distance[v] > distance[u] + graph[u][v]:
+                        distance[v] = distance[u] + graph[u][v]
+                        predecessor[v] = u
+    
+    # 检查是否有负权重的边
+    for u in graph:
+        if distance[u] != sys.maxsize:
+            for v in graph[u]:
+                if distance[v] > distance[u] + graph[u][v]:
+                    print("with negative cycles")
 
-	return distance, predecessor
+    return distance, predecessor
 
 # the results:
 for n in range(k):
-	graph = graphs[n]
-	vertice = vertices[n]
-	first_specified_edge = first_specified_edges[n]
-	distance, predecessor = BellmanFord(graph, vertice, first_specified_edge[1])
-	# print(distance)
-	if distance[first_specified_edge[0]] == sys.maxsize:
-		print(-1, end=" ")
-	else:
-		print(distance[first_specified_edge[0]]+first_specified_edge[2], end=" ")
+    graph = graphs[n]
+    vertice = vertices[n]
+    first_specified_edge = first_specified_edges[n]
+    distance, predecessor = BellmanFord(graph, vertice, first_specified_edge[1])
+    # print(distance)
+    if distance[first_specified_edge[0]] == sys.maxsize:
+        print(-1, end=" ")
+    else:
+        print(distance[first_specified_edge[0]]+first_specified_edge[2], end=" ")
 

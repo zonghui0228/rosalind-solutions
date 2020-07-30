@@ -1,7 +1,13 @@
 # ^_^ coding:utf-8 ^_^
 
-# General Sink
+""" 
+General Sink
+url: http://rosalind.info/problems/gs/
 
+Given: A positive integer k≤20 and k simple directed graphs with at most 103 vertices and 2⋅103 edges each in the edge list format.
+Return: For each graph, output a vertex from which all other vertices are reachable (if such a vertex exists) and "-1" otherwise.
+        Source: Algorithms by Dasgupta, Papadimitriou, Vazirani. McGraw-Hill. 2006.
+"""
 
 # the input:
 # A positive integer k≤20 and k simple directed graphs with at most 10**3 vertices and 2*10**3 edges each in the edge list format.

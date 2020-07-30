@@ -63,3 +63,4 @@ for i in range(len(graphs)):
         print(1, end=" ")
     else:
         print(-1, end=" ")
+print()

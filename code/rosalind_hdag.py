@@ -1,7 +1,10 @@
 # ^_^ codig:utf-8 ^_^
 
-# Hamiltonian Path in DAG
+"""
+Hamiltonian Path in DAG
+url: http://rosalind.info/problems/hgad/
 
+"""
 
 # the input:
 # A positive integer k≤20 and k simple directed acyclic graphs in the edge list format with at most 10**3 vertices each.

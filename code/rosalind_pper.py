@@ -1,16 +1,20 @@
-# Partial Permutations
-# an ordering of some of objects from a collection
-# A(n, k)  k <= n
+# ^_^ coding:utf-8 ^_^
 
-# The total number of partial permutations(n,k) , modulo 1,000,000.
+"""
+Partial Permutations
+url: http://rosalind.info/problems/pper/
 
-# factorial of n
+Given: Positive integers n and k such that 100≥n>0 and 10≥k>0.
+Return: The total number of partial permutations P(n,k), modulo 1,000,000.
+"""
+
 def fac(n):
 	f = 1
 	for i in range(n):
-		f = f * (i+1)
+		f *= (i+1)
 	return f
-def p_per(n, k):
-	return fac(n)/fac(n-k)
 
-# print p_per(85, 10)
+def p_per(n, k):
+	return fac(n)/fac(n-k) % 1000000
+
+print(p_per(96, 9))

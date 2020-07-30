@@ -12,7 +12,6 @@ Return: An array D[1..n] where D[i] is the sum of the degrees of i's neighbors.
 # ==============================
 data = "../data/rosalind_ddeg.txt"
 
-
 # the solution
 # ==============================
 with open(data, "r") as f:

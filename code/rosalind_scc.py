@@ -1,6 +1,13 @@
 # ^_^ coding:utf-8 ^_^
 
-# Strongly Connected Components
+"""
+Strongly Connected Components
+url: http://rosalind.info/problems/scc/
+
+Given: A simple directed graph with n≤103 vertices in the edge list format.
+Return: The number of strongly connected components in the graph.
+"""
+
 
 # the input:
 # A simple directed graph with n≤10**3 vertices in the edge list format.
