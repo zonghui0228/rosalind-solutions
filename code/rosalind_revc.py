@@ -4,8 +4,8 @@
 Complementing a Strand of DNA
 url: http://rosalind.info/problems/revc/
 
-# Given: A DNA string  of length at most 1000 bp.
-# Return: The reverse complement sc of s. .
+Given: A DNA string  of length at most 1000 bp.
+Return: The reverse complement sc of s. .
 """
 
 def DNAstrand(string):

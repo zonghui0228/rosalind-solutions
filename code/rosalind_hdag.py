@@ -4,6 +4,8 @@
 Hamiltonian Path in DAG
 url: http://rosalind.info/problems/hgad/
 
+Given: A positive integer k≤20 and k simple directed acyclic graphs in the edge list format with at most 103 vertices each.
+Return: For each graph, if it contains a Hamiltonian path output "1" followed by a Hamiltonian path (i.e., a list of vertices), otherwise output "-1".
 """
 
 # the input:

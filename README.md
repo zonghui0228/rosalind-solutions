@@ -87,4 +87,5 @@
 * SUBS: Finding a Motif in DNA [[info](http://rosalind.info/problems/subs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_subs.py)]
 * TRAN: Transitions and Transversions [[info](http://rosalind.info/problems/tran/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_tran.py)]
 * TREE: Completing a Tree [[info](http://rosalind.info/problems/tree/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_tree.py)]
+* TRIE: Introduction to Pattern Matching [[info](http://rosalind.info/problems/trie/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_trie.py)]
 * TS: Topological Sorting [[info](http://rosalind.info/problems/ts/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ts.py)]
