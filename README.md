@@ -43,6 +43,7 @@
 * KMER: k-Mer Composition [[info](http://rosalind.info/problems/kmer/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_kmer.py)]
 * KMP: Speeding Up Motif Finding [[info](http://rosalind.info/problems/kmp/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_kmp.py)]
 * LCSM: Finding a Shared Motif [[info](http://rosalind.info/problems/lcsm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_lcsm.py)]
+* LCSQ: Finding a Shared Spliced Motif [[info](http://rosalind.info/problems/lcsq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_lcsq.py)]
 * LEXF: Enumerating k-mers Lexicographically [[info](http://rosalind.info/problems/lexf/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_lexf.py)]
 * LEXV: Ordering Strings of Varying Length Lexicographically [[info](http://rosalind.info/problems/lexv/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_lexv.py)]
 * LGIS: Longest Increasing Subsequence [[info](http://rosalind.info/problems/lgis/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_lgis.py)]
