@@ -8,7 +8,9 @@
 
 **my accounts:** http://rosalind.info/users/huihui0228/
 
-**problems & solutions:**
+**problems & solutions:** 
+
+<img src="https://img.shields.io/badge/language-python-green.svg" style="zoom:100%;" /><img src="https://img.shields.io/badge/counts-80-orange.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * ASPC: Introduction to Alternative Splicing [[info](http://rosalind.info/problems/aspc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_aspc.py)]
