@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-80-orange.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-81-orange.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * ASPC: Introduction to Alternative Splicing [[info](http://rosalind.info/problems/aspc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_aspc.py)]
@@ -28,6 +28,7 @@
 * DEG: Degree Array [[info](http://rosalind.info/problems/deg/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_deg.py)]
 * DIJ: Dijkstra's Algorithm [[info](http://rosalind.info/problems/dij/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_dij.py)]
 * DNA: Counting DNA Nucleotides [[info](http://rosalind.info/problems/dna/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_dna.py)]
+* EDIT: Edit Distance [[info](http://rosalind.info/problems/edit/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_edit.py)]
 * EVAL: Expected Number of Restriction Sites [[info](http://rosalind.info/problems/eval/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_eval.py)]
 * FIB: Rabbits and Recurrence Relations [[info](http://rosalind.info/problems/fib/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fib.py)]
 * FIBD: Mortal Fibonacci Rabbits [[info](http://rosalind.info/problems/fibd/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fibd.py)]
