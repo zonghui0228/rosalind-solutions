@@ -10,9 +10,6 @@ Return: For each formula, output 0 if it cannot be satisfied or 1 followed by a 
 
 
 # the input:
-# A positive integer k≤20 and k 2SAT formulas represented as follows. 
-# The first line gives the number of variables n≤10**3 and the number of clauses m≤10**4, 
-# each of the following m lines gives a clause of length 2 by specifying two different literals: e.g., a clause (x3 ∨ x¯5) is given by 3 -5.
 # ==============================
 data = "../data/rosalind_2sat.txt"
 graphs = []
@@ -60,8 +57,10 @@ with open(data, "r") as f:
             graphs.append(graph)
             graph_t = {v:[] for v in range(2*variable)}
             graphs_t.append(graph_t)
-# print(graphs)
-# print(graphs_t)
+print(graphs)
+print(graphs_t)
+print(variables)
+print(clauses)
 
 
 # the solution:
@@ -116,21 +115,12 @@ def solve_2sat(n, graph, graph_t):
             print(-(i+1), end=" ")
     return True
 
-# n = 4
-# graph = {0:[2,3], 1:[2,3], 2:[0,1], 3:[0,1]}
-# graph_t = {0:[2,3], 1:[2,3], 2:[0,1], 3:[0,1]}
-# n = 6
-# graph = {0:[3], 1:[2], 2:[1,5], 3:[0,4], 4:[3], 5:[2]}
-# graph_t = {0:[3], 1:[2], 2:[1,5], 3:[0,4], 4:[3], 5:[2]}
-# print(solve_2sat(n, graph, graph_t))
-
 # the results:
-for i in range(k):
-    graph = graphs[i]
-    graph_t = graphs_t[i]
-    variable = variables[i]
-    solve_2sat(variable*2, graph, graph_t)
-
+# for i in range(k):
+#     graph = graphs[i]
+#     graph_t = graphs_t[i]
+#     variable = variables[i]
+#     solve_2sat(variable*2, graph, graph_t)
 
 # reference url:
 # 1. https://cp-algorithms.com/graph/2SAT.html

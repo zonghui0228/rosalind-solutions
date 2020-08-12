@@ -8,27 +8,7 @@ Given: A positive integer k≤20 and k simple directed graphs with at most 103 v
 Return: For each graph, output "1" if the graph is semi-connected and "-1" otherwise.
 """
 
-
-# the input:
-# A positive integer k≤20 and k simple directed graphs with at most 10**3 vertices each in the edge list format.
-# ==============================
-data = "../data/rosalind_sc.txt"
-graphs, vertices, edges = [], [], []
-with open(data, "r") as f:
-    k = int(f.readline().strip())
-    for line in f:
-        if line.strip():
-            vertice1, vertice2 = map(int, line.strip().split(" "))
-            graph[vertice1].append(vertice2)
-
-        else:
-            vertice, edge = map(int, f.readline().strip().split(" "))
-            vertices.append(vertice)
-            edges.append(edge)
-            graph = {v:[] for v in range(1, vertice+1)}
-            graphs.append(graph)
-# print(graphs)
-
+import numpy as np
 
 # the solution
 # ==============================
@@ -53,29 +33,44 @@ def BFS(start_vertice, vertice, graph):
     return order, distance
 
 def ifSemiConnectedGraph(graph, vertice):
-    matrix = [[False]*vertice for v in range(vertice)]
+    results = 1
+    matrix = np.array([[0]*vertice for v in range(vertice)])
     for v in range(vertice):
-        matrix[v][v] = True
-    # print(matrix)
-    # order, distance = BFS(1, vertice, graph)
+        matrix[v][v] += 1
+
     for v in range(vertice):
         order, distance = BFS(v+1, vertice, graph)
-        # print(distance)
         for k in distance.keys():
             if distance[k] != -1:
-                matrix[v][k-1] = True
-                matrix[k-1][v] = True
-    # print(matrix)
-    for i in range(vertice):
-        for j in range(vertice):
-            if not matrix[i][j]:
-                print(-1, end=" ")
-                return -1
-    print(1, end=" ")
-    return 1
+                matrix[v][k-1] += 1
+                matrix[k-1][v] += 1
+            else:
+                matrix[v][k-1] -= 1
+                matrix[k-1][v] -= 1
+        matrix_flatten = matrix.flatten()
+        if -2 in matrix_flatten:
+            return -1
+    return 1    
 
+if __name__ == "__main__":
+    # load data
+    data = "../data/rosalind_sc.txt"
+    graphs, vertices, edges = [], [], []
+    with open(data, "r") as f:
+        k = int(f.readline().strip())
+        for line in f:
+            if line.strip():
+                vertice1, vertice2 = map(int, line.strip().split(" "))
+                graph[vertice1].append(vertice2)
 
-for i in range(k):
-    graph = graphs[i]
-    vertice = vertices[i]
-    ifSemiConnectedGraph(graph, vertice)
+            else:
+                vertice, edge = map(int, f.readline().strip().split(" "))
+                vertices.append(vertice)
+                edges.append(edge)
+                graph = {v:[] for v in range(1, vertice+1)}
+                graphs.append(graph)
+
+    for i in range(k):
+        graph = graphs[i]
+        vertice = vertices[i]
+        print(ifSemiConnectedGraph(graph, vertice))
