@@ -8,7 +8,6 @@ Given: A positive integer k≤20 and k 2SAT formulas represented as follows. The
 Return: For each formula, output 0 if it cannot be satisfied or 1 followed by a satisfying assignment otherwise.
 """
 
-
 # the input:
 # ==============================
 data = "../data/rosalind_2sat.txt"
@@ -57,46 +56,45 @@ with open(data, "r") as f:
             graphs.append(graph)
             graph_t = {v:[] for v in range(2*variable)}
             graphs_t.append(graph_t)
-print(graphs)
-print(graphs_t)
-print(variables)
-print(clauses)
+# print(graphs)
+# print(graphs_t)
+# print(variables)
+# print(clauses)
 
 
 # the solution:
 # ==============================
 def dfs1(v, used, order):
+    if used[v]:
+        return 
     used[v] = True
     for u in graph[v]:
         if not used[u]:
             dfs1(u, used, order)
     order.append(v)
 
-def dfs2(v, cl, comp, used_t, graph_t):
-    used_t[v] = True
-    for u in graph_t[v]:
-        if not used_t[u]:
-            dfs2(u, cl, comp, used_t, graph_t)
+def dfs2(v, cl, comp, graph_t):
     comp[v] = cl
+    for u in graph_t[v]:
+        if comp[u] == -1:
+            dfs2(u, cl, comp, graph_t)
 
 def solve_2sat(n, graph, graph_t):
     order = []
     used = [False] * n
-    # print(n, len(graph))
     for i in range(n):
         if not used[i]:
             dfs1(i, used, order)
     # print(order)
 
     comp = [-1] * n
-    j = 1
-    used_t = [False] * n
+    j = 0
     for i in range(n):
         v = order[n-i-1]
-        if not used_t[v]:
-            dfs2(v, j, comp, used_t, graph_t)
+        if comp[v] == -1:
             j += 1
-
+            dfs2(v, j, comp, graph_t)
+            
     assignment = [False] * int(n/2)
     # print(assignment)
     for i in range(0, n, 2):
@@ -113,14 +111,16 @@ def solve_2sat(n, graph, graph_t):
             print(i+1, end=" ")
         else:
             print(-(i+1), end=" ")
+    print()
     return True
 
 # the results:
-# for i in range(k):
-#     graph = graphs[i]
-#     graph_t = graphs_t[i]
-#     variable = variables[i]
-#     solve_2sat(variable*2, graph, graph_t)
+for i in range(k):
+    # print(i)
+    graph = graphs[i]
+    graph_t = graphs_t[i]
+    variable = variables[i]
+    solve_2sat(variable*2, graph, graph_t)
 
 # reference url:
 # 1. https://cp-algorithms.com/graph/2SAT.html
