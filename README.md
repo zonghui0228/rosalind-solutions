@@ -40,6 +40,7 @@
 * HAMM: Counting Point Mutations [[info](http://rosalind.info/problems/hamm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_hamm.py)]
 * HDAG: Hamiltonian Path in DAG [[info](http://rosalind.info/problems/hdag/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_hdag.py)]
 * IEV: Calculating Expected Offspring [[info](http://rosalind.info/problems/iev/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_iev.py)]
+* INDC: Independent Segregation of Chromosomes [[info](http://rosalind.info/problems/indc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_indc.py)]
 * INOD: Counting Phylogenetic Ancestors [[info](http://rosalind.info/problems/inod/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_inod.py)]
 * INS: Insertion Sort [[info](http://rosalind.info/problems/ins/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ins.py)]
 * IPRB: Mendel's First Law [[info](http://rosalind.info/problems/iprb/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_iprb.py)]
