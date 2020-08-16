@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-83-green.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-84-green.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * AFRQ: Counting Disease Carriers [[info](http://rosalind.info/problems/afrq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_afrq.py)]
@@ -82,6 +82,7 @@
 * SCC: Strongly Connected Components [[info](http://rosalind.info/problems/scc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_scc.py)]
 * SDAG: Shortest Paths in DAG [[info](http://rosalind.info/problems/sdag/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sdag.py)]
 * SETO: Introduction to Set Operations [[info](http://rosalind.info/problems/seto/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_seto.py)]
+* SEXL: Sex-Linked Inheritance [[info](http://rosalind.info/problems/sexl/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sexl.py)]
 * SGRA: Using the Spectrum Graph to Infer Peptides [[info](http://rosalind.info/problems/sgra/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sgra.py)]
 * SIGN: Enumerating Oriented Gene Orderings [[info](http://rosalind.info/problems/sign/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sign.py)]
 * SORT: Sorting by Reversals [[info](http://rosalind.info/problems/sort/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sort.py)]
