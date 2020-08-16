@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-84-green.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-85-success.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * AFRQ: Counting Disease Carriers [[info](http://rosalind.info/problems/afrq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_afrq.py)]
@@ -54,6 +54,7 @@
 * LGIS: Longest Increasing Subsequence [[info](http://rosalind.info/problems/lgis/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_lgis.py)]
 * LIA: Independent Alleles [[info](http://rosalind.info/problems/lia/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_lia.py)]
 * LONG: Genome Assembly as Shortest Superstring [[info](http://rosalind.info/problems/long/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_long.py)]
+* MEND: Inferring Genotype from a Pedigree [[info](http://rosalind.info/problems/mend/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_mend.py)]
 * MER: Merge Two Sorted Arrays [[info](http://rosalind.info/problems/mer/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_mer.py)]
 * MMCH: Maximum Matchings and RNA Secondary Structures [[info](http://rosalind.info/problems/mmch/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_mmch.py)]
 * MOTZ: Motzkin Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/motz/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_motz.py)]
