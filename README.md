@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-85-success.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-86-success.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * AFRQ: Counting Disease Carriers [[info](http://rosalind.info/problems/afrq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_afrq.py)]
@@ -97,3 +97,4 @@
 * TREE: Completing a Tree [[info](http://rosalind.info/problems/tree/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_tree.py)]
 * TRIE: Introduction to Pattern Matching [[info](http://rosalind.info/problems/trie/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_trie.py)]
 * TS: Topological Sorting [[info](http://rosalind.info/problems/ts/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ts.py)]
+* WFMD: The Wright-Fisher Model of Genetic Drift [[info](http://rosalind.info/problems/wfmd/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_wfmd.py)]
