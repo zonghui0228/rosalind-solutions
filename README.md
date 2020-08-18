@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-86-success.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-87-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * AFRQ: Counting Disease Carriers [[info](http://rosalind.info/problems/afrq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_afrq.py)]
@@ -34,6 +34,7 @@
 * FIB: Rabbits and Recurrence Relations [[info](http://rosalind.info/problems/fib/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fib.py)]
 * FIBD: Mortal Fibonacci Rabbits [[info](http://rosalind.info/problems/fibd/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fibd.py)]
 * FIBO: Fibonacci Numbers [[info](http://rosalind.info/problems/fibo/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fibo.py)]
+* FOUN: The Founder Effect and Genetic Drift [[info](http://rosalind.info/problems/foun/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_foun.py)]
 * FULL: Inferring Peptide from Full Spectrum [[info](http://rosalind.info/problems/full/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_full.py)]
 * GC: Computing GC Content [[info](http://rosalind.info/problems/gc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_gc.py)]
 * GRPH: Overlap Graphs [[info](http://rosalind.info/problems/grph/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_grph.py)]
