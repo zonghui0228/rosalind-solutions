@@ -8,20 +8,20 @@ Given: A positive integer k≤20, a positive integer n≤104, and k arrays of si
 Return: For each array A[1..n], output two different indices 1≤p<q≤n such that A[p]=−A[q] if exist, and "-1" otherwise.
 """
 
-with open("../data/rosalind_2sum.txt", "r") as f:
-    k, n = map(int, f.readline().strip().split())
-    A = [[int(i) for i in line.strip().split()] for line in f]
+def two_sum(a, target=0):
+    tmp_dict = {}
+    for i in range(len(a)):
+        if a[i] in tmp_dict:
+            print(tmp_dict[a[i]] + 1, i + 1)
+            return (tmp_dict[a[i]]+1, i+1)
+        else:
+            tmp_dict[target-a[i]] = i
+    print(-1)
+    return -1
 
-for i in range(k):
-    a = A[i]
-    for p in range(n-1):
-        stop = False
-        for q in range(p+1, n):
-            if a[p] == -a[q]:
-                print(p+1, q+1)
-                stop = True
-                break
-        if stop:
-            break
-    if not stop:
-        print("-1")
+if __name__ == "__main__":
+    with open("../data/rosalind_2sum.txt", "r") as f:
+        k, n = map(int, f.readline().strip().split())
+        A = [[int(i) for i in line.strip().split()] for line in f]
+    for i in range(k):
+        r = two_sum(A[i])
