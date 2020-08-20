@@ -10,10 +10,11 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-89-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-90-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
+* 3SUM: 3SUM [[info](http://rosalind.info/problems/3sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_3sum.py)]
 * AFRQ: Counting Disease Carriers [[info](http://rosalind.info/problems/afrq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_afrq.py)]
 * ASPC: Introduction to Alternative Splicing [[info](http://rosalind.info/problems/aspc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_aspc.py)]
 * BF: Bellman-Ford Algorithm [[info](http://rosalind.info/problems/bf/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bf.py)]
