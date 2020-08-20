@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-91-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-92-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -78,6 +78,7 @@
 * PROT: Translating RNA into Protein [[info](http://rosalind.info/problems/prot/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prot.py)]
 * PRSM: Matching a Spectrum to a Protein [[info](http://rosalind.info/problems/prsm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prsm.py)]
 * PRTM: Calculating Protein Mass [[info](http://rosalind.info/problems/prtm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prtm.py)]
+* QS: Quick Sort [[info](http://rosalind.info/problems/qs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_qs.py)]
 * REAR: Reversal Distance [[info](http://rosalind.info/problems/rear/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rear.py)]
 * REVC: Complementing a Strand of DNA [[info](http://rosalind.info/problems/revc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_revc.py)]
 * REVP: Locating Restriction Sites [[info](http://rosalind.info/problems/revp/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_revp.py)]
