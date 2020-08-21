@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-92-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-93-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -47,6 +47,7 @@
 * INDC: Independent Segregation of Chromosomes [[info](http://rosalind.info/problems/indc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_indc.py)]
 * INOD: Counting Phylogenetic Ancestors [[info](http://rosalind.info/problems/inod/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_inod.py)]
 * INS: Insertion Sort [[info](http://rosalind.info/problems/ins/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ins.py)]
+* INV: Counting Inversions [[info](http://rosalind.info/problems/inv/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_inv.py)]
 * IPRB: Mendel's First Law [[info](http://rosalind.info/problems/iprb/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_iprb.py)]
 * KMER: k-Mer Composition [[info](http://rosalind.info/problems/kmer/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_kmer.py)]
 * KMP: Speeding Up Motif Finding [[info](http://rosalind.info/problems/kmp/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_kmp.py)]
