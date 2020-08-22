@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-93-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-103-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -27,6 +27,7 @@
 * CORR: Error Correction in Reads [[info](http://rosalind.info/problems/corr/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_corr.py)]
 * CTE: Shortest Cycle Through a Given Edge [[info](http://rosalind.info/problems/cte/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cte.py)]
 * DAG: Testing Acyclicity [[info](http://rosalind.info/problems/dag/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_dag.py)]
+* DBPR: Introduction to Protein Databases [[info](http://rosalind.info/problems/dbpr/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_dbpr.py)]
 * DDEG: Double-Degree Array [[info](http://rosalind.info/problems/ddeg/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ddeg.py)]
 * DEG: Degree Array [[info](http://rosalind.info/problems/deg/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_deg.py)]
 * DIJ: Dijkstra's Algorithm [[info](http://rosalind.info/problems/dij/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_dij.py)]
@@ -37,7 +38,9 @@
 * FIBD: Mortal Fibonacci Rabbits [[info](http://rosalind.info/problems/fibd/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fibd.py)]
 * FIBO: Fibonacci Numbers [[info](http://rosalind.info/problems/fibo/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fibo.py)]
 * FOUN: The Founder Effect and Genetic Drift [[info](http://rosalind.info/problems/foun/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_foun.py)]
+* FRMT: Data Formats [[info](http://rosalind.info/problems/frmt/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_frmt.py)]
 * FULL: Inferring Peptide from Full Spectrum [[info](http://rosalind.info/problems/full/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_full.py)]
+* GBK: GenBank Introduction [[info](http://rosalind.info/problems/gbk/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_gbk.py)]
 * GC: Computing GC Content [[info](http://rosalind.info/problems/gc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_gc.py)]
 * GRPH: Overlap Graphs [[info](http://rosalind.info/problems/grph/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_grph.py)]
 * GS: General Sink [[info](http://rosalind.info/problems/gs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_gs.py)]
@@ -45,6 +48,13 @@
 * HDAG: Hamiltonian Path in DAG [[info](http://rosalind.info/problems/hdag/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_hdag.py)]
 * IEV: Calculating Expected Offspring [[info](http://rosalind.info/problems/iev/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_iev.py)]
 * INDC: Independent Segregation of Chromosomes [[info](http://rosalind.info/problems/indc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_indc.py)]
+* INI: Introduction to the Bioinformatics Armory [[info](http://rosalind.info/problems/ini/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ini.py)]
+* INI1: Installing Python [[info](http://rosalind.info/problems/ini1/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ini1.py)]
+* INI2: Variables and Some Arithmetic [[info](http://rosalind.info/problems/ini2/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ini2.py)]
+* INI3: Strings and Lists [[info](http://rosalind.info/problems/ini3/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ini3.py)]
+* INI4: Conditions and Loops [[info](http://rosalind.info/problems/ini4/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ini4.py)]
+* INI5: Working with Files [[info](http://rosalind.info/problems/ini5/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ini5.py)]
+* INI6: Dictionaries [[info](http://rosalind.info/problems/ini6/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ini6.py)]
 * INOD: Counting Phylogenetic Ancestors [[info](http://rosalind.info/problems/inod/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_inod.py)]
 * INS: Insertion Sort [[info](http://rosalind.info/problems/ins/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ins.py)]
 * INV: Counting Inversions [[info](http://rosalind.info/problems/inv/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_inv.py)]
