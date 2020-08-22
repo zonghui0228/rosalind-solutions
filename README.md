@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-105-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-111-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -18,8 +18,10 @@
 * AFRQ: Counting Disease Carriers [[info](http://rosalind.info/problems/afrq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_afrq.py)]
 * ASPC: Introduction to Alternative Splicing [[info](http://rosalind.info/problems/aspc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_aspc.py)]
 * BF: Bellman-Ford Algorithm [[info](http://rosalind.info/problems/bf/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bf.py)]
+* BFIL: Base Filtration by Quality [[info](http://rosalind.info/problems/bfil/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bfil.py)]
 * BFS: Breadth-First Search [[info](http://rosalind.info/problems/bfs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bfs.py)]
 * BIP: Testing Bipartiteness [[info](http://rosalind.info/problems/bip/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bip.py)]
+* BPHR: Base Quality Distribution [[info](http://rosalind.info/problems/bphr/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bphr.py)]
 * CAT: Catalan Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/cat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cat.py)]
 * CC: Connected Components [[info](http://rosalind.info/problems/cc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cc.py)]
 * CONS: Consensus and Profile [[info](http://rosalind.info/problems/cons/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cons.py)]
@@ -37,6 +39,7 @@
 * FIB: Rabbits and Recurrence Relations [[info](http://rosalind.info/problems/fib/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fib.py)]
 * FIBD: Mortal Fibonacci Rabbits [[info](http://rosalind.info/problems/fibd/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fibd.py)]
 * FIBO: Fibonacci Numbers [[info](http://rosalind.info/problems/fibo/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fibo.py)]
+* FILT: Read Filtration by Quality [[info](http://rosalind.info/problems/filt/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_filt.py)]
 * FOUN: The Founder Effect and Genetic Drift [[info](http://rosalind.info/problems/foun/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_foun.py)]
 * FRMT: Data Formats [[info](http://rosalind.info/problems/frmt/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_frmt.py)]
 * FULL: Inferring Peptide from Full Spectrum [[info](http://rosalind.info/problems/full/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_full.py)]
@@ -79,6 +82,7 @@
 * NWC: Negative Weight Cycle [[info](http://rosalind.info/problems/nwc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_nwc.py)]
 * NWCK: Distances in Trees [[info](http://rosalind.info/problems/nwck/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_nwck.py)]
 * ORF: Open Reading Frames [[info](http://rosalind.info/problems/orf/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_orf.py)]
+* ORFR: Finding Genes with ORFs [[info](http://rosalind.info/problems/orfr/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_orfr.py)]
 * PAR: 2-Way Partition [[info](http://rosalind.info/problems/par/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_par.py)]
 * PAR3: 3-Way Partition [[info](http://rosalind.info/problems/par3/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_par3.py)]
 * PDST: Creating a Distance Matrix [[info](http://rosalind.info/problems/pdst/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_pdst.py)]
@@ -90,6 +94,7 @@
 * PROT: Translating RNA into Protein [[info](http://rosalind.info/problems/prot/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prot.py)]
 * PRSM: Matching a Spectrum to a Protein [[info](http://rosalind.info/problems/prsm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prsm.py)]
 * PRTM: Calculating Protein Mass [[info](http://rosalind.info/problems/prtm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prtm.py)]
+* PTRA: Protein Translation [[info](http://rosalind.info/problems/ptra/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ptra.py)]
 * QS: Quick Sort [[info](http://rosalind.info/problems/qs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_qs.py)]
 * REAR: Reversal Distance [[info](http://rosalind.info/problems/rear/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rear.py)]
 * REVC: Complementing a Strand of DNA [[info](http://rosalind.info/problems/revc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_revc.py)]
@@ -97,6 +102,7 @@
 * RNA: Transcribing DNA into RNA [[info](http://rosalind.info/problems/rna/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rna.py)]
 * RNAS: Wobble Bonding and RNA Secondary Structures [[info](http://rosalind.info/problems/rnas/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rnas.py)]
 * RSTR: Matching Random Motifs [[info](http://rosalind.info/problems/rstr/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rstr.py)]
+* RVCO: Complementing a Strand of DNA [[info](http://rosalind.info/problems/rvco/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rvco.py)]
 * SC: Semi-Connected Graph [[info](http://rosalind.info/problems/sc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sc.py)]
 * SCC: Strongly Connected Components [[info](http://rosalind.info/problems/scc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_scc.py)]
 * SDAG: Shortest Paths in DAG [[info](http://rosalind.info/problems/sdag/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sdag.py)]
