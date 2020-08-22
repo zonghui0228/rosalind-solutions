@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-103-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-105-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -83,6 +83,7 @@
 * PAR3: 3-Way Partition [[info](http://rosalind.info/problems/par3/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_par3.py)]
 * PDST: Creating a Distance Matrix [[info](http://rosalind.info/problems/pdst/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_pdst.py)]
 * PERM: Enumerating Gene Orders [[info](http://rosalind.info/problems/perm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_perm.py)]
+* PHRE: Read Quality Distribution [[info](http://rosalind.info/problems/phre/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_phre.py)]
 * PMCH: Perfect Matchings and RNA Secondary Structures [[info](http://rosalind.info/problems/pmch/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_pmch.py)]
 * PPER: Partial Permutations [[info](http://rosalind.info/problems/pper/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_pper.py)]
 * PROB: Introduction to Random Strings [[info](http://rosalind.info/problems/prob/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prob.py)]
@@ -110,6 +111,7 @@
 * SSEQ: Finding a Spliced Motif [[info](http://rosalind.info/problems/sseq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sseq.py)]
 * SSET: Counting Subsets [[info](http://rosalind.info/problems/sset/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sset.py)]
 * SUBS: Finding a Motif in DNA [[info](http://rosalind.info/problems/subs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_subs.py)]
+* TFSQ: FASTQ format introduction [[info](http://rosalind.info/problems/tfsq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_tfsq.py)]
 * TRAN: Transitions and Transversions [[info](http://rosalind.info/problems/tran/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_tran.py)]
 * TREE: Completing a Tree [[info](http://rosalind.info/problems/tree/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_tree.py)]
 * TRIE: Introduction to Pattern Matching [[info](http://rosalind.info/problems/trie/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_trie.py)]
