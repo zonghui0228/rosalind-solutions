@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-111-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-115-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -24,6 +24,7 @@
 * BPHR: Base Quality Distribution [[info](http://rosalind.info/problems/bphr/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bphr.py)]
 * CAT: Catalan Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/cat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cat.py)]
 * CC: Connected Components [[info](http://rosalind.info/problems/cc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cc.py)]
+* CLUS: Global Multiple Alignment [[info](http://rosalind.info/problems/clus/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_clus.py)]
 * CONS: Consensus and Profile [[info](http://rosalind.info/problems/cons/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_cons.py)]
 * CONV: Comparing Spectra with the Spectral Convolution [[info](http://rosalind.info/problems/conv/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_conv.py)]
 * CORR: Error Correction in Reads [[info](http://rosalind.info/problems/corr/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_corr.py)]
@@ -73,12 +74,14 @@
 * LONG: Genome Assembly as Shortest Superstring [[info](http://rosalind.info/problems/long/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_long.py)]
 * MAJ: Majority Element [[info](http://rosalind.info/problems/maj/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_maj.py)]
 * MED: Median [[info](http://rosalind.info/problems/med/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_med.py)]
+* MEME: New Motif Discovery [[info](http://rosalind.info/problems/meme/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_meme.py)]
 * MEND: Inferring Genotype from a Pedigree [[info](http://rosalind.info/problems/mend/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_mend.py)]
 * MER: Merge Two Sorted Arrays [[info](http://rosalind.info/problems/mer/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_mer.py)]
 * MMCH: Maximum Matchings and RNA Secondary Structures [[info](http://rosalind.info/problems/mmch/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_mmch.py)]
 * MOTZ: Motzkin Numbers and RNA Secondary Structures [[info](http://rosalind.info/problems/motz/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_motz.py)]
 * MPRT: Finding a Protein Motif [[info](http://rosalind.info/problems/mprt/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_mprt.py)]
 * MRNA: Inferring mRNA from Protein [[info](http://rosalind.info/problems/mrna/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_mrna.py)]
+* NEED: Pairwise Global Alignment [[info](http://rosalind.info/problems/need/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_need.py)]
 * NWC: Negative Weight Cycle [[info](http://rosalind.info/problems/nwc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_nwc.py)]
 * NWCK: Distances in Trees [[info](http://rosalind.info/problems/nwck/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_nwck.py)]
 * ORF: Open Reading Frames [[info](http://rosalind.info/problems/orf/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_orf.py)]
@@ -116,6 +119,7 @@
 * SQ: Square in a Graph [[info](http://rosalind.info/problems/sq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sq.py)]
 * SSEQ: Finding a Spliced Motif [[info](http://rosalind.info/problems/sseq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sseq.py)]
 * SSET: Counting Subsets [[info](http://rosalind.info/problems/sset/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sset.py)]
+* SUBO:  Suboptimal Local Alignment [[info](http://rosalind.info/problems/subo/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_subo.py)]
 * SUBS: Finding a Motif in DNA [[info](http://rosalind.info/problems/subs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_subs.py)]
 * TFSQ: FASTQ format introduction [[info](http://rosalind.info/problems/tfsq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_tfsq.py)]
 * TRAN: Transitions and Transversions [[info](http://rosalind.info/problems/tran/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_tran.py)]
