@@ -10,7 +10,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-115-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-118-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -50,6 +50,8 @@
 * GS: General Sink [[info](http://rosalind.info/problems/gs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_gs.py)]
 * HAMM: Counting Point Mutations [[info](http://rosalind.info/problems/hamm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_hamm.py)]
 * HDAG: Hamiltonian Path in DAG [[info](http://rosalind.info/problems/hdag/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_hdag.py)]
+* HEA: Building a Heap [[info](http://rosalind.info/problems/hea/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_hea.py)]
+* HS: Heap Sort [[info](http://rosalind.info/problems/hs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_hs.py)]
 * IEV: Calculating Expected Offspring [[info](http://rosalind.info/problems/iev/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_iev.py)]
 * INDC: Independent Segregation of Chromosomes [[info](http://rosalind.info/problems/indc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_indc.py)]
 * INI: Introduction to the Bioinformatics Armory [[info](http://rosalind.info/problems/ini/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ini.py)]
@@ -97,6 +99,7 @@
 * PROT: Translating RNA into Protein [[info](http://rosalind.info/problems/prot/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prot.py)]
 * PRSM: Matching a Spectrum to a Protein [[info](http://rosalind.info/problems/prsm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prsm.py)]
 * PRTM: Calculating Protein Mass [[info](http://rosalind.info/problems/prtm/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_prtm.py)]
+* PS: Partial Sort [[info](http://rosalind.info/problems/ps/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ps.py)]
 * PTRA: Protein Translation [[info](http://rosalind.info/problems/ptra/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ptra.py)]
 * QS: Quick Sort [[info](http://rosalind.info/problems/qs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_qs.py)]
 * REAR: Reversal Distance [[info](http://rosalind.info/problems/rear/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rear.py)]
