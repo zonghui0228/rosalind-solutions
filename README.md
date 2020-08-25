@@ -6,8 +6,6 @@
 
 **website:** [http://rosalind.info](http://rosalind.info)
 
-**my accounts:** http://rosalind.info/users/huihui0228/
-
 **problems & solutions:** 
 
 <img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-118-brightgreen.svg" style="zoom:100%;" />
