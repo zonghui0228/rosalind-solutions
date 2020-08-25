@@ -6,7 +6,7 @@
 
 **website:** [http://rosalind.info](http://rosalind.info)
 
-**my account:** http://rosalind.info/users/huihui0228/
+**my account:** http://rosalind.info/users/huihui0228
 
 **problems & solutions:** 
 
