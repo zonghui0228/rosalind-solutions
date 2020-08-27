@@ -1,5 +1,5 @@
-<img src="http://rosalind.info/static/img/logo.png?v=1560257990" width="200">
-
+<img src="http://rosalind.info/static/img/logo.png?v=1560257990" width="200" align="right">
+# Rosalind solutions
 ***
 
 **ROSALIND** is a platform for learning bioinformatics and programming through problem solving. Here are my solutions.
