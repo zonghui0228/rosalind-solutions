@@ -3,7 +3,7 @@
 # Rosalind solutions
 
 
-**ROSALIND** is a platform for learning bioinformatics and programming through problem solving. Here are my solutions.
+> **ROSALIND** is a platform for learning bioinformatics and programming through problem solving. Here are my solutions.
 
 **website:** [http://rosalind.info](http://rosalind.info)
 
