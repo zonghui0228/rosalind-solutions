@@ -1,6 +1,13 @@
-# Find the Most Frequent Words with Mismatches in a String
-# Given: A string Text as well as integers k and d.
-# Return: All most frequent k-mers with up to d mismatches in Text.
+# ^_^ coding:utf-8 ^_^
+
+"""
+Find the Most Frequent Words with Mismatches in a String
+url: http://rosalind.info/problems/ba1i/
+
+Given: A string Text as well as integers k and d.
+Return: All most frequent k-mers with up to d mismatches in Text.
+"""
+
 from collections import defaultdict
 def neighbour(pattern, mismatch, words):
 	bases = ['A', 'T', 'G', 'C']
@@ -21,9 +28,10 @@ def FindMostFrequentWords(text, k, d):
 	# print AllFrequentWords
 	for t in AllFrequentWords.keys():
 		if AllFrequentWords[t] == max(AllFrequentWords.values()):
-			print t,
+			print(t, end=" ")
 
-# text = 'ACGTTGCATGTCGCATGATGCATGAGAGCT'
-# k = 4
-# d = 1
-# FindMostFrequentWords(text, k, d)
+if __name__ == "__main__":
+	text = 'ACGTTGCATGTCGCATGATGCATGAGAGCT'
+	k = 4
+	d = 1
+	FindMostFrequentWords(text, k, d)

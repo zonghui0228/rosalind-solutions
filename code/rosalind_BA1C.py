@@ -1,16 +1,21 @@
-# Find the Reverse Complement of a String
-def reverse_pattern(s):
-	reverse_s = ''
-	for i in range(len(s)-1, -1, -1):
-		if s[i] == 'A':
-			reverse_s += 'T'
-		elif s[i] == 'T':
-			reverse_s += 'A'
-		elif s[i] == 'G':
-			reverse_s += 'C'
-		elif s[i] == 'C':
-			reverse_s += 'G'
-	return reverse_s
+# ^_^ coding:utf-8 ^_^
 
-string = 'AAAACCCGGT'
-print reverse_pattern(string)
+"""
+Find the Reverse Complement of a String
+url: http://rosalind.info/problems/ba1c/
+
+Given: A DNA string Pattern.
+Return: Pattern, the reverse complement of Pattern.
+"""
+
+from Bio import Seq
+
+def ReverseComplement(dna):
+	reverse_dna = Seq.reverse_complement(dna)
+	return reverse_dna
+
+if __name__ == "__main__":
+	with open("../data/rosalind_ba1c.txt", "r") as f:
+		dna = f.readline().strip()
+	reverse_dna = ReverseComplement(dna)
+	print(reverse_dna)

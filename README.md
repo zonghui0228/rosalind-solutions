@@ -10,13 +10,21 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-118-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-126-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
 * 3SUM: 3SUM [[info](http://rosalind.info/problems/3sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_3sum.py)]
 * AFRQ: Counting Disease Carriers [[info](http://rosalind.info/problems/afrq/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_afrq.py)]
 * ASPC: Introduction to Alternative Splicing [[info](http://rosalind.info/problems/aspc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_aspc.py)]
+* BA1A: Compute the Number of Times a Pattern Appears in a Text [[info](http://rosalind.info/problems/ba1a/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1a.py)]
+* BA1B: Find the Most Frequent Words in a String [[info](http://rosalind.info/problems/ba1b/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1b.py)]
+* BA1C: Find the Reverse Complement of a String [[info](http://rosalind.info/problems/ba1c/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1c.py)]
+* BA1D: Find All Occurrences of a Pattern in a String [[info](http://rosalind.info/problems/ba1d/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1d.py)]
+* BA1E: Find Patterns Forming Clumps in a String [[info](http://rosalind.info/problems/ba1e/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1e.py)]
+* BA1F: Find a Position in a Genome Minimizing the Skew [[info](http://rosalind.info/problems/ba1f/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1f.py)]
+* BA1G: Compute the Hamming Distance Between Two Strings [[info](http://rosalind.info/problems/ba1g/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1g.py)]
+* BA1H: Find All Approximate Occurrences of a Pattern in a String [[info](http://rosalind.info/problems/ba1h/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1h.py)]
 * BF: Bellman-Ford Algorithm [[info](http://rosalind.info/problems/bf/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bf.py)]
 * BFIL: Base Filtration by Quality [[info](http://rosalind.info/problems/bfil/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bfil.py)]
 * BFS: Breadth-First Search [[info](http://rosalind.info/problems/bfs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bfs.py)]

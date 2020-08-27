@@ -1,23 +1,33 @@
-# Find a Position in a Genome Minimizing the Skew
+# ^_^ coding:utf-8 ^_^
 
-def minimum_skew(s):
-	count_G = 0
-	count_C = 0
-	list_skew = [0]
+"""
+Find a Position in a Genome Minimizing the Skew
+url: http://rosalind.info/problems/ba1f/
+
+Given: A DNA string Genome.
+Return: All integer(s) i minimizing Skew(Prefixi (Text)) over all values of i (from 0 to |Genome|).
+"""
+
+def MinimumSkew(s):
+	skew = [0]
 	for i in range(len(s)):
-		if s[i] == 'G':
-			count_G += 1
-		elif s[i] == 'C':
-			count_C += 1
-		list_skew.append(count_G - count_C)
-	# print list_skew
-	min_skew = min(list_skew)
-	for i in range(len(list_skew)):
-		if list_skew[i] == min_skew:
-			print i,
-def main(file):
-	import linecache
-	string = linecache.getline(file, 1).strip('\n')
-# print string
-	minimum_skew(string)
-# main("rosalind_ba1f.txt")
+		if s[i] == "G":
+			skew.append(skew[-1]+1)
+		elif s[i] == "C":
+			skew.append(skew[-1]-1)
+		else:
+			skew.append(skew[-1])
+	# print(skew)
+	minimum_skew = min(skew)
+	for i in range(len(skew)):
+		if skew[i] == minimum_skew:
+			print(i, end=" ")
+	print()
+	return skew
+
+if __name__ == "__main__":
+	# s = "CCTATCGGTGGATTAGCATGTCCCTGTACGTTTCGCCGCGAACTAGTTCACACGGCTTGATGGCAAATGGTTTTTCCGGCGACCGTAATCGTCCACCGAG"
+	
+	with open("../data/rosalind_ba1f.txt", "r") as f:
+		s = f.readline().strip()
+	MinimumSkew(s)
