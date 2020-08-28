@@ -2,7 +2,7 @@
 
 """
 Find an Eulerian Cycle in a Graph
-url: http://rosalind.info/problems/ba1i/
+url: http://rosalind.info/problems/ba3f/
 
 Given: An Eulerian directed graph, in the form of an adjacency list.
 Return: An Eulerian cycle in this graph.

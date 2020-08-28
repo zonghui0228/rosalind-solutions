@@ -44,7 +44,7 @@
 * BA3F: Find an Eulerian Cycle in a Graph [[info](http://rosalind.info/problems/ba3f/)] [code]
 * BA5A: Find the Minimum Number of Coins Needed to Make Change [[info](http://rosalind.info/problems/ba5a/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba5a.py)]
 * BA5B: Find the Length of a Longest Path in a Manhattan-like Grid [[info](http://rosalind.info/problems/ba5b/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba5b.py)]
-* BA5C: Find a Longest Common Subsequence of Two Strings [[info](http://rosalind.info/problems/ba5c/)] [code]
+* BA5C: Find a Longest Common Subsequence of Two Strings [[info](http://rosalind.info/problems/ba5c/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba5c.py)]
 * BA10A: Compute the Probability of a Hidden Path [[info](http://rosalind.info/problems/ba10a/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba10a.py)]
 * BA10B: Compute the Probability of an Outcome Given a Hidden Path [[info](http://rosalind.info/problems/ba10b/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba10b.py)]
 * BF: Bellman-Ford Algorithm [[info](http://rosalind.info/problems/bf/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bf.py)]

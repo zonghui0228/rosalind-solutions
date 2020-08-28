@@ -2,7 +2,7 @@
 
 """
 Implement GreedyMotifSearch
-url: http://rosalind.info/problems/ba1i/
+url: http://rosalind.info/problems/ba2d/
 
 Given: Integers k and t, followed by a collection of strings Dna.
 Return: A collection of strings BestMotifs resulting from running GreedyMotifSearch(Dna, k, t). If at any step you find more than one Profile-most probable k-mer in a given string, use the one occurring first.
