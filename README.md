@@ -35,7 +35,7 @@
 * BA2A: Implement MotifEnumeration [[info](http://rosalind.info/problems/ba2a/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba2a.py)]
 * BA2B: Find a Median String [[info](http://rosalind.info/problems/ba2b/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba2b.py)]
 * BA2C: Find a Profile-most Probable k-mer in a String [[info](http://rosalind.info/problems/ba2c/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba2c.py)]
-* BA2D: Implement GreedyMotifSearch [[info](http://rosalind.info/problems/ba2d/)] [code]
+* BA2D: Implement GreedyMotifSearch [[info](http://rosalind.info/problems/ba2d/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba2d.py)]
 * BA3A: Generate the k-mer Composition of a String [[info](http://rosalind.info/problems/ba3a/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3a.py)]
 * BA3B: Reconstruct a String from its Genome Path [[info](http://rosalind.info/problems/ba3b/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3b.py)]
 * BA3C: Construct the Overlap Graph of a Collection of k-mers [[info](http://rosalind.info/problems/ba3c/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3c.py)]

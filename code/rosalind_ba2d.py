@@ -8,85 +8,66 @@ Given: Integers k and t, followed by a collection of strings Dna.
 Return: A collection of strings BestMotifs resulting from running GreedyMotifSearch(Dna, k, t). If at any step you find more than one Profile-most probable k-mer in a given string, use the one occurring first.
 """
 
-def HammingDistance(a,b):
-	count  = 0
-	for i in range(len(a)):
-		if a[i] != b[i]:
-			count += 1
-	return count
+def ProbableKmer(string, matrix):
+    probable = 1
+    for i in range(len(string)):
+        if string[i] == 'A':
+            probable *= matrix[0][i]
+        if string[i] == 'C':
+            probable *= matrix[1][i]
+        if string[i] == 'G':
+            probable *= matrix[2][i]
+        if string[i] == 'T':
+            probable *= matrix[3][i]
+    return probable
 
-def ProfileMostProbableKmer(string, k, motif):
-	dis = HammingDistance(string[0:k], motif)
-	MostProbableKmer = string[0:k]
-	for i in range(len(string) - k + 1):
-		if HammingDistance(string[i:i+k], motif) < dis:
-			MostProbableKmer = string[i:i+k]
-			dis = HammingDistance(string[i:i+k], motif)
-	return MostProbableKmer
-# print ProfileMostProbableKmer("AAGAATCAGTCA", 3, "GGC")
+# Profile-most probable k-mer in the i-th string in Dna
+def FindProfileMostProbableKmer(string, k, matrix):
+    seq = {}
+    for i in range(len(string) - k + 1):
+        seq[string[i:i + k]] = ProbableKmer(string[i:i + k], matrix)
+    max_key = sorted(seq.items(), key=lambda x:x[1], reverse=True)[0][0]
+    return max_key
 
-def Score1(a, b):
-	# a, b is a list
-	score = 0
-	for i in range(len(a)):
-		sc = HammingDistance(a[i][0:len(b[i])], b[i])
-		for j in range(len(a[i]) - len(b[i]) + 1):			
-			if HammingDistance(a[i][j:j+len(b[i])], b[i]) <= sc:
-				sc = HammingDistance(a[i][j:j+len(b[i])], b[i])
-		score += sc
-	return score
-def Score2(a, b):
-	# a is a string, b is a list
-	score = 0
-	for i in b:
-		sc = HammingDistance(a[0:len(i)], i)
-		for j in range(len(a) - len(i) + 1):
-			if HammingDistance(a[j:j+len(i)],i) < sc:
-				sc = HammingDistance(a[j:j+len(i)],i)
-		score += sc
-	return score
+# Score(Motifs)
+def Score(Motifs):
+    score = 0
+    for i in range(len(Motifs[0])):
+        j = [motif[i] for motif in Motifs]
+        score += (len(j) - max(j.count("A"), j.count("C"), j.count("T"), j.count("G")))
+    return score
 
-def Score3(s):
-	# s is a sting
-	score = 0
-	for i in range(1,len(s)):
-		score += HammingDistance(s[0],s[i])
-	return score
+def GreedyMotifSearch(Dna, k, t):
+    # BestMotifs ← motif matrix formed by first k-mers in each string from Dna
+    BestMotifs = [dna[:k] for dna in Dna]
+    # for each k-mer Motif in the first string from Dna
+    for k_mer in [Dna[0][i:i+k] for i in range(len(Dna[0])-k+1)]:
+        # Motif1 ← Motif
+        Motifs = [k_mer]
+        # for i = 2 to t
+        for i in range(1, t):
+            # form Profile from motifs Motif1, …, Motifi - 1
+            motifs = Motifs[:i]
+            # Motifi ← Profile-most probable k-mer in the i-th string in Dna
+            matrix = []
+            for nar in ["A", "C", "G", "T"]:
+                mat = []
+                for j in range(k):
+                    mm = [m[j] for m in motifs]
+                    mat.append(mm.count(nar)/len(motifs))
+                matrix.append(mat)
+            # Motifs ← (Motif1, …, Motift)    
+            Motifs.append(FindProfileMostProbableKmer(Dna[i], k, matrix))
+        # print(Motifs)
+        # if Score(Motifs) < Score(BestMotifs), BestMotifs ← Motifs
+        if Score(Motifs) < Score(BestMotifs):
+            BestMotifs = Motifs
+    return BestMotifs
 
-def Score4(a,b):
-	sc = HammingDistance(a[0:len(b)] , b)
-	for i in range(len(a) - len(b) + 1):
-		if HammingDistance(a[i:i+len(b)], b) < sc:
-			sc = HammingDistance(a[i:i+len(b)], b)
-	return sc
-# print score('GGCGTTCAGGCA','GAC')
-
-def GreedyMotifSearch(dna, k, t):
-	from rosalind_BA2C import *
-	bestMotifs = []
-	for string in dna:
-		bestMotifs.append(string[0:k]) 
-	print bestMotifs
-	matrix = [[0.25,0.25,0],[0,0.25,0],[0.5,0.25,0],[0.25,0.25,0]]
-	for i in range(len(dna[0]) - k + 1):
-		# print i
-		motifs = []
-		motifs.append(dna[0][i:i+k])
-		# print motifs
-		for j in range(1, len(dna)):
-			motifs.append(FindProfileMostProbableKmer(dna[j], k, matrix))
-		print motifs
-		if Score1(dna, motifs) < Score1(dna, bestMotifs):
-			bestMotifs = motifs
-	# return bestMotifs
-
-
-fp = open("rosalind_ba2d.txt")
-file_list = []
-for line in fp.readlines():
-	file_list.append(line.strip())
-k = int(file_list[1].split(' ')[0])
-t = int(file_list[1].split(' ')[1])
-dna = file_list[2:t + 2]
-print GreedyMotifSearch(dna, k ,t)
-fp.close()
+if __name__ == "__main__":
+    with open("../data/rosalind_ba2d.txt", "r") as f:
+        k, t = map(int, f.readline().strip().split())
+        Dna = [line.strip() for line in f]
+    # print(k,t,Dna)
+    BestMotifs = GreedyMotifSearch(Dna, k ,t)
+    print("\n".join(BestMotifs))

@@ -26,7 +26,7 @@ def FindProfileMostProbableKmer(string, k, matrix):
     for i in range(len(string) - k + 1):
         seq[string[i:i + k]] = ProbableKmer(string[i:i + k], matrix)
     max_key = sorted(seq.items(), key=lambda x:x[1], reverse=True)[0][0]
-    print(max_key)
+    return max_key
 
 if __name__ == "__main__":
     # string = 'ACCTGTTTATTGCCTAAGTTCCGAACAAACCCAATATAGCCCGAGGGCCT'
@@ -36,4 +36,4 @@ if __name__ == "__main__":
         string = f.readline().strip()
         k = int(f.readline().strip())
         matrix =[[float(l) for l in line.strip().split()] for line in f]
-    FindProfileMostProbableKmer(string, k, matrix)
+    print(FindProfileMostProbableKmer(string, k, matrix))
