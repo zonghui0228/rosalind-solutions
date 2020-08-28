@@ -11,7 +11,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-126-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-132-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -26,6 +26,12 @@
 * BA1F: Find a Position in a Genome Minimizing the Skew [[info](http://rosalind.info/problems/ba1f/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1f.py)]
 * BA1G: Compute the Hamming Distance Between Two Strings [[info](http://rosalind.info/problems/ba1g/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1g.py)]
 * BA1H: Find All Approximate Occurrences of a Pattern in a String [[info](http://rosalind.info/problems/ba1h/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1h.py)]
+* BA1I: Find the Most Frequent Words with Mismatches in a String [[info](http://rosalind.info/problems/ba1i/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1i.py)]
+* BA1J: Find Frequent Words with Mismatches and Reverse Complements [[info](http://rosalind.info/problems/ba1j/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1j.py)]
+* BA1K: Generate the Frequency Array of a String [[info](http://rosalind.info/problems/ba1k/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1k.py)]
+* BA1L: Implement PatternToNumber [[info](http://rosalind.info/problems/ba1l/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1l.py)]
+* BA1M: Implement NumberToPattern [[info](http://rosalind.info/problems/ba1m/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1m.py)]
+* BA1N: Generate the d-Neighborhood of a String [[info](http://rosalind.info/problems/ba1n/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba1n.py)]
 * BF: Bellman-Ford Algorithm [[info](http://rosalind.info/problems/bf/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bf.py)]
 * BFIL: Base Filtration by Quality [[info](http://rosalind.info/problems/bfil/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bfil.py)]
 * BFS: Breadth-First Search [[info](http://rosalind.info/problems/bfs/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_bfs.py)]
