@@ -11,7 +11,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-147-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-146-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -41,7 +41,6 @@
 * BA3C: Construct the Overlap Graph of a Collection of k-mers [[info](http://rosalind.info/problems/ba3c/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3c.py)]
 * BA3D: Construct the De Bruijn Graph of a String [[info](http://rosalind.info/problems/ba3d/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3d.py)]
 * BA3E: Construct the De Bruijn Graph of a Collection of k-mers [[info](http://rosalind.info/problems/ba3e/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3e.py)]
-* BA3F: Find an Eulerian Cycle in a Graph [[info](http://rosalind.info/problems/ba3f/)] [code]
 * BA5A: Find the Minimum Number of Coins Needed to Make Change [[info](http://rosalind.info/problems/ba5a/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba5a.py)]
 * BA5B: Find the Length of a Longest Path in a Manhattan-like Grid [[info](http://rosalind.info/problems/ba5b/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba5b.py)]
 * BA5C: Find a Longest Common Subsequence of Two Strings [[info](http://rosalind.info/problems/ba5c/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba5c.py)]
