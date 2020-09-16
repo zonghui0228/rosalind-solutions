@@ -11,7 +11,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-146-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python-blue.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-147-brightgreen.svg" style="zoom:100%;" />
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
@@ -140,6 +140,7 @@
 * RVCO: Complementing a Strand of DNA [[info](http://rosalind.info/problems/rvco/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_rvco.py)]
 * SC: Semi-Connected Graph [[info](http://rosalind.info/problems/sc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sc.py)]
 * SCC: Strongly Connected Components [[info](http://rosalind.info/problems/scc/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_scc.py)]
+* SCSP: Interleaving Two Motifs [[info](http://rosalind.info/problems/scsp/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_scsp.py)]
 * SDAG: Shortest Paths in DAG [[info](http://rosalind.info/problems/sdag/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sdag.py)]
 * SETO: Introduction to Set Operations [[info](http://rosalind.info/problems/seto/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_seto.py)]
 * SEXL: Sex-Linked Inheritance [[info](http://rosalind.info/problems/sexl/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_sexl.py)]
