@@ -10,7 +10,7 @@ Return: A shortest common supersequence of s and t. If multiple solutions exist,
 
 import pprint
 
-def LCS(s1, s2):
+def SCS(s1, s2):
     m, n = len(s1), len(s2)
     DP = [[0]*(n+1) for i in range(m+1)]
     for i in range(m+1):
@@ -43,4 +43,4 @@ if __name__ == "__main__":
     with open("../data/rosalind_scsp.txt", "r") as f:
         s1 = f.readline().strip()
         s2 = f.readline().strip()
-    res = LCS(s1, s2)
+    res = SCS(s1, s2)
