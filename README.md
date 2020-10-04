@@ -65,6 +65,7 @@
 * DIJ: Dijkstra's Algorithm [[info](http://rosalind.info/problems/dij/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_dij.py)]
 * DNA: Counting DNA Nucleotides [[info](http://rosalind.info/problems/dna/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_dna.py)]
 * EDIT: Edit Distance [[info](http://rosalind.info/problems/edit/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_edit.py)]
+* EDTA: Edit Distance Alignment [[info](http://rosalind.info/problems/edta/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_edta.py)]
 * EVAL: Expected Number of Restriction Sites [[info](http://rosalind.info/problems/eval/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_eval.py)]
 * FIB: Rabbits and Recurrence Relations [[info](http://rosalind.info/problems/fib/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fib.py)]
 * FIBD: Mortal Fibonacci Rabbits [[info](http://rosalind.info/problems/fibd/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_fibd.py)]
