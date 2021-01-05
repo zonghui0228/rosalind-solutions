@@ -11,7 +11,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python-orange.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-148-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python+ruby-orange.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-148-brightgreen.svg" style="zoom:100%;" />
 <img src="https://visitor-badge.laobi.icu/badge?page_id=zonghui0228.rosalind-solutions" alt="visitor badge"/>
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
@@ -37,6 +37,7 @@
 * BA2B: Find a Median String [[info](http://rosalind.info/problems/ba2b/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba2b.py)]
 * BA2C: Find a Profile-most Probable k-mer in a String [[info](http://rosalind.info/problems/ba2c/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba2c.py)]
 * BA2D: Implement GreedyMotifSearch [[info](http://rosalind.info/problems/ba2d/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba2d.py)]
+* BA2H: Implement DistanceBetweenPatternAndStrings [[info](http://rosalind.info/problems/ba2h/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba2h.rb)]
 * BA3A: Generate the k-mer Composition of a String [[info](http://rosalind.info/problems/ba3a/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3a.py)]
 * BA3B: Reconstruct a String from its Genome Path [[info](http://rosalind.info/problems/ba3b/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3b.py)]
 * BA3C: Construct the Overlap Graph of a Collection of k-mers [[info](http://rosalind.info/problems/ba3c/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_ba3c.py)]
