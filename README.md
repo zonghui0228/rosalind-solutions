@@ -11,7 +11,7 @@
 
 **problems & solutions:** 
 
-<img src="https://img.shields.io/badge/language-python+ruby-orange.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-148-brightgreen.svg" style="zoom:100%;" />
+<img src="https://img.shields.io/badge/language-python+ruby-orange.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-149-brightgreen.svg" style="zoom:100%;" />
 <img src="https://visitor-badge.laobi.icu/badge?page_id=zonghui0228.rosalind-solutions" alt="visitor badge"/>
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
