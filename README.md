@@ -15,7 +15,7 @@
 
 <img src="https://img.shields.io/badge/language-python-orange.svg" style="zoom:100%;" /> <img src="https://img.shields.io/badge/counts-149-brightgreen.svg" style="zoom:100%;" />
 <img src="https://visitor-badge.laobi.icu/badge?page_id=zonghui0228.rosalind-solutions" alt="visitor badge"/>
-[![HitCount](http://hits.dwyl.com/zonghui0228/rosalind-solutions.svg)](http://hits.dwyl.com/zonghui0228/rosalind-solutions)
+
 
 * 2SAT: 2-Satisfiability [[info](http://rosalind.info/problems/2sat/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sat.py)]
 * 2SUM: 2SUM [[info](http://rosalind.info/problems/2sum/)] [[code](https://github.com/zonghui0228/Rosalind-Solutions/blob/master/code/rosalind_2sum.py)]
